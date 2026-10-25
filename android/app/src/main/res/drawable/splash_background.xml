@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The startup screen below Android 12, where the window background is all there is
+     to work with: the mockups' paper, with the mark centred on it at 240dp, which is the
+     size the system splash uses from API 31 up, so the launch looks the same either way.
+
+     The mark goes in as a plain item rather than a bitmap, because it is a vector and
+     bitmap only accepts raster sources. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/paper" />
+    <item
+        android:drawable="@mipmap/ic_launcher_foreground"
+        android:gravity="center"
+        android:width="240dp"
+        android:height="240dp" />
+</layer-list>

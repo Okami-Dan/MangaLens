@@ -1,0 +1,41 @@
+# Downloaded/generated build inputs and all build output
+/var/
+**/build/
+**/.gradle/
+**/.kotlin/
+**/.cxx/
+**/local.properties
+*.apk
+*.aab
+*.onnx
+*.gguf
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.so
+*.a
+*.part
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+*.pem
+*.p12
+
+# Editors, operating systems, Python environments
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.uv-cache/

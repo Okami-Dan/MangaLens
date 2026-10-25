@@ -1,0 +1,1359 @@
+{
+ "_meta": {
+  "built_by": "tools/export_translate_fixture.py",
+  "source": "var/run_device",
+  "model_id": "qwen3-1.7b",
+  "reference": "harness/pipeline/translate.py"
+ },
+ "pages": [
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "pageKind": "INTERIOR",
+   "cover": false,
+   "regions": [
+    {
+     "id": 9,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 0,
+     "ocrText": "誰の「ツガイ」だろう",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 1,
+     "ocrText": "「幽霊」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 6,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 2,
+     "ocrText": "「妖怪」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 3,
+     "ocrText": "「化け物」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 4,
+     "ocrText": "「ＵＭＡ」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 5,
+     "ocrText": "「異形」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 2,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 6,
+     "ocrText": "「対なるもの」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 7,
+     "ocrText": "主の言って聞くものだよねの",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 1,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 8,
+     "ocrText": "まぁ見る人によって色々呼ばれてて統一されてないけど",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    9,
+    8,
+    6,
+    3,
+    4,
+    5,
+    2,
+    7,
+    1
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "誰の「ツガイ」だろう"
+     },
+     {
+      "id": 2,
+      "text": "「幽霊」"
+     },
+     {
+      "id": 3,
+      "text": "「妖怪」"
+     },
+     {
+      "id": 4,
+      "text": "「化け物」"
+     },
+     {
+      "id": 5,
+      "text": "「ＵＭＡ」"
+     },
+     {
+      "id": 6,
+      "text": "「異形」"
+     },
+     {
+      "id": 7,
+      "text": "「対なるもの」"
+     },
+     {
+      "id": 8,
+      "text": "主の言って聞くものだよねの"
+     },
+     {
+      "id": 9,
+      "text": "まぁ見る人によって色々呼ばれてて統一されてないけど"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 9,
+    "2": 8,
+    "3": 6,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 2,
+    "8": 7,
+    "9": 1
+   },
+   "cacheKey": "96c3bd41f43ac5526ecd2f602d617fd34227735f62faa47cb86bcad1fb24367f",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "f4bfc2f1df8d212f7bced23e9dd60ed2d527e9676f6ad6a6267d66aac01bac40"
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "pageKind": "INTERIOR",
+   "cover": true,
+   "regions": [
+    {
+     "id": 9,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 0,
+     "ocrText": "誰の「ツガイ」だろう",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 1,
+     "ocrText": "「幽霊」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 6,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 2,
+     "ocrText": "「妖怪」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 3,
+     "ocrText": "「化け物」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 4,
+     "ocrText": "「ＵＭＡ」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 5,
+     "ocrText": "「異形」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 2,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 6,
+     "ocrText": "「対なるもの」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 7,
+     "ocrText": "主の言って聞くものだよねの",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 1,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 8,
+     "ocrText": "まぁ見る人によって色々呼ばれてて統一されてないけど",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    9,
+    8,
+    6,
+    3,
+    4,
+    5,
+    2,
+    7,
+    1
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "誰の「ツガイ」だろう"
+     },
+     {
+      "id": 2,
+      "text": "「幽霊」"
+     },
+     {
+      "id": 3,
+      "text": "「妖怪」"
+     },
+     {
+      "id": 4,
+      "text": "「化け物」"
+     },
+     {
+      "id": 5,
+      "text": "「ＵＭＡ」"
+     },
+     {
+      "id": 6,
+      "text": "「異形」"
+     },
+     {
+      "id": 7,
+      "text": "「対なるもの」"
+     },
+     {
+      "id": 8,
+      "text": "主の言って聞くものだよねの"
+     },
+     {
+      "id": 9,
+      "text": "まぁ見る人によって色々呼ばれてて統一されてないけど"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 9,
+    "2": 8,
+    "3": 6,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 2,
+    "8": 7,
+    "9": 1
+   },
+   "cacheKey": "06f63a3712a73e11ee09d021f49761396955c837142296bd61c3cdfed4760058",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 2, \"text\": \"「幽霊」\"}, {\"id\": 3, \"text\": \"「妖怪」\"}, {\"id\": 4, \"text\": \"「化け物」\"}, {\"id\": 5, \"text\": \"「ＵＭＡ」\"}, {\"id\": 6, \"text\": \"「異形」\"}, {\"id\": 7, \"text\": \"「対なるもの」\"}, {\"id\": 8, \"text\": \"主の言って聞くものだよねの\"}, {\"id\": 9, \"text\": \"まぁ見る人によって色々呼ばれてて統一されてないけど\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "4b93400f82ea88c5c20d39af497aa869cc52aebf12bfc993bc703cf8a37a7fdf"
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "pageKind": "INTERIOR",
+   "cover": false,
+   "regions": [
+    {
+     "id": 1,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 0,
+     "ocrText": "なーんか出ちゃったねぇ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 1,
+     "ocrText": "誰の「ツガイ」だろう",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 12,
+     "kind": "TEXT_FREE",
+     "readingIndex": 2,
+     "ocrText": "おはようございます",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 11,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 3,
+     "ocrText": "「なんだ」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 6,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 4,
+     "ocrText": "「化け物」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 2,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 5,
+     "ocrText": "弱い奴だといいなぁ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 9,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 6,
+     "ocrText": "おいおいおい今度の主は子供だぞ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 7,
+     "ocrText": "御しやすそうだな",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 8,
+     "ocrText": "左の",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 9,
+     "ocrText": "子供たろうが大人だろうが主の言う事は聞くものだよ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 10,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 10,
+     "ocrText": "右の",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 11,
+     "ocrText": "「対なるもの」",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    1,
+    5,
+    12,
+    11,
+    6,
+    2,
+    9,
+    4,
+    8,
+    3,
+    10,
+    7
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "なーんか出ちゃったねぇ"
+     },
+     {
+      "id": 2,
+      "text": "誰の「ツガイ」だろう"
+     },
+     {
+      "id": 3,
+      "text": "おはようございます"
+     },
+     {
+      "id": 4,
+      "text": "「なんだ」"
+     },
+     {
+      "id": 5,
+      "text": "「化け物」"
+     },
+     {
+      "id": 6,
+      "text": "弱い奴だといいなぁ"
+     },
+     {
+      "id": 7,
+      "text": "おいおいおい今度の主は子供だぞ"
+     },
+     {
+      "id": 8,
+      "text": "御しやすそうだな"
+     },
+     {
+      "id": 9,
+      "text": "左の"
+     },
+     {
+      "id": 10,
+      "text": "子供たろうが大人だろうが主の言う事は聞くものだよ"
+     },
+     {
+      "id": 11,
+      "text": "右の"
+     },
+     {
+      "id": 12,
+      "text": "「対なるもの」"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 1,
+    "2": 5,
+    "3": 12,
+    "4": 11,
+    "5": 6,
+    "6": 2,
+    "7": 9,
+    "8": 4,
+    "9": 8,
+    "10": 3,
+    "11": 10,
+    "12": 7
+   },
+   "cacheKey": "5266106d506cf807ce8fcaffc794c81f908afc2b8845c8c4394aa573cf07648e",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "f77a38aa998669d59d226ba01dba5d81f56e546e7a5c064dbcc78c6c34902d4d"
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "pageKind": "INTERIOR",
+   "cover": true,
+   "regions": [
+    {
+     "id": 1,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 0,
+     "ocrText": "なーんか出ちゃったねぇ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 1,
+     "ocrText": "誰の「ツガイ」だろう",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 12,
+     "kind": "TEXT_FREE",
+     "readingIndex": 2,
+     "ocrText": "おはようございます",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 11,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 3,
+     "ocrText": "「なんだ」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 6,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 4,
+     "ocrText": "「化け物」",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 2,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 5,
+     "ocrText": "弱い奴だといいなぁ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 9,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 6,
+     "ocrText": "おいおいおい今度の主は子供だぞ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 7,
+     "ocrText": "御しやすそうだな",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 8,
+     "ocrText": "左の",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 9,
+     "ocrText": "子供たろうが大人だろうが主の言う事は聞くものだよ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 10,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 10,
+     "ocrText": "右の",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 11,
+     "ocrText": "「対なるもの」",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    1,
+    5,
+    12,
+    11,
+    6,
+    2,
+    9,
+    4,
+    8,
+    3,
+    10,
+    7
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "なーんか出ちゃったねぇ"
+     },
+     {
+      "id": 2,
+      "text": "誰の「ツガイ」だろう"
+     },
+     {
+      "id": 3,
+      "text": "おはようございます"
+     },
+     {
+      "id": 4,
+      "text": "「なんだ」"
+     },
+     {
+      "id": 5,
+      "text": "「化け物」"
+     },
+     {
+      "id": 6,
+      "text": "弱い奴だといいなぁ"
+     },
+     {
+      "id": 7,
+      "text": "おいおいおい今度の主は子供だぞ"
+     },
+     {
+      "id": 8,
+      "text": "御しやすそうだな"
+     },
+     {
+      "id": 9,
+      "text": "左の"
+     },
+     {
+      "id": 10,
+      "text": "子供たろうが大人だろうが主の言う事は聞くものだよ"
+     },
+     {
+      "id": 11,
+      "text": "右の"
+     },
+     {
+      "id": 12,
+      "text": "「対なるもの」"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 1,
+    "2": 5,
+    "3": 12,
+    "4": 11,
+    "5": 6,
+    "6": 2,
+    "7": 9,
+    "8": 4,
+    "9": 8,
+    "10": 3,
+    "11": 10,
+    "12": 7
+   },
+   "cacheKey": "a8a4d3ce0ac057955973e408e2908423b012598948fb7becdce7477f0ecc8a16",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"なーんか出ちゃったねぇ\"}, {\"id\": 2, \"text\": \"誰の「ツガイ」だろう\"}, {\"id\": 3, \"text\": \"おはようございます\"}, {\"id\": 4, \"text\": \"「なんだ」\"}, {\"id\": 5, \"text\": \"「化け物」\"}, {\"id\": 6, \"text\": \"弱い奴だといいなぁ\"}, {\"id\": 7, \"text\": \"おいおいおい今度の主は子供だぞ\"}, {\"id\": 8, \"text\": \"御しやすそうだな\"}, {\"id\": 9, \"text\": \"左の\"}, {\"id\": 10, \"text\": \"子供たろうが大人だろうが主の言う事は聞くものだよ\"}, {\"id\": 11, \"text\": \"右の\"}, {\"id\": 12, \"text\": \"「対なるもの」\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "80ac55b8f22a4be342379039085239bed3729dba27040f92c8a0f302811f4a97"
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "pageKind": "INTERIOR",
+   "cover": false,
+   "regions": [
+    {
+     "id": 2,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 0,
+     "ocrText": "もしもーしハナちゃん",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 10,
+     "kind": "TEXT_FREE",
+     "readingIndex": 1,
+     "ocrText": "黄泉のツガイロ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 6,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 2,
+     "ocrText": "俺俺",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 1,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 3,
+     "ocrText": "あーやっぱ逞じるねぇやばいねこれ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 4,
+     "ocrText": "そっちから煙見える？",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 5,
+     "ocrText": "そう",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 6,
+     "ocrText": "合流地点変えていい？",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 9,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 7,
+     "ocrText": "うん",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 8,
+     "ocrText": "たぶんこれ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 9,
+     "ocrText": "アサが来た",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    2,
+    10,
+    6,
+    1,
+    4,
+    8,
+    5,
+    9,
+    3,
+    7
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "もしもーしハナちゃん"
+     },
+     {
+      "id": 2,
+      "text": "黄泉のツガイロ"
+     },
+     {
+      "id": 3,
+      "text": "俺俺"
+     },
+     {
+      "id": 4,
+      "text": "あーやっぱ逞じるねぇやばいねこれ"
+     },
+     {
+      "id": 5,
+      "text": "そっちから煙見える？"
+     },
+     {
+      "id": 6,
+      "text": "そう"
+     },
+     {
+      "id": 7,
+      "text": "合流地点変えていい？"
+     },
+     {
+      "id": 8,
+      "text": "うん"
+     },
+     {
+      "id": 9,
+      "text": "たぶんこれ"
+     },
+     {
+      "id": 10,
+      "text": "アサが来た"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 2,
+    "2": 10,
+    "3": 6,
+    "4": 1,
+    "5": 4,
+    "6": 8,
+    "7": 5,
+    "8": 9,
+    "9": 3,
+    "10": 7
+   },
+   "cacheKey": "67bd1d870f39525cdb29e22fc66a33f52651b94db7d6b9d51717413092c130bc",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "bde4394e67871dbbd3da6a731c1160db592220e1aa9391cfce6c7f767d5d3f15"
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "pageKind": "INTERIOR",
+   "cover": true,
+   "regions": [
+    {
+     "id": 2,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 0,
+     "ocrText": "もしもーしハナちゃん",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 10,
+     "kind": "TEXT_FREE",
+     "readingIndex": 1,
+     "ocrText": "黄泉のツガイロ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 6,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 2,
+     "ocrText": "俺俺",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 1,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 3,
+     "ocrText": "あーやっぱ逞じるねぇやばいねこれ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 4,
+     "ocrText": "そっちから煙見える？",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 5,
+     "ocrText": "そう",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 6,
+     "ocrText": "合流地点変えていい？",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 9,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 7,
+     "ocrText": "うん",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 8,
+     "ocrText": "たぶんこれ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_BUBBLE",
+     "readingIndex": 9,
+     "ocrText": "アサが来た",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    2,
+    10,
+    6,
+    1,
+    4,
+    8,
+    5,
+    9,
+    3,
+    7
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "もしもーしハナちゃん"
+     },
+     {
+      "id": 2,
+      "text": "黄泉のツガイロ"
+     },
+     {
+      "id": 3,
+      "text": "俺俺"
+     },
+     {
+      "id": 4,
+      "text": "あーやっぱ逞じるねぇやばいねこれ"
+     },
+     {
+      "id": 5,
+      "text": "そっちから煙見える？"
+     },
+     {
+      "id": 6,
+      "text": "そう"
+     },
+     {
+      "id": 7,
+      "text": "合流地点変えていい？"
+     },
+     {
+      "id": 8,
+      "text": "うん"
+     },
+     {
+      "id": 9,
+      "text": "たぶんこれ"
+     },
+     {
+      "id": 10,
+      "text": "アサが来た"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 2,
+    "2": 10,
+    "3": 6,
+    "4": 1,
+    "5": 4,
+    "6": 8,
+    "7": 5,
+    "8": 9,
+    "9": 3,
+    "10": 7
+   },
+   "cacheKey": "14012b6f06c1e5793f0132b60775c167cd45027f2d427e45877729a51b22e5e9",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"もしもーしハナちゃん\"}, {\"id\": 2, \"text\": \"黄泉のツガイロ\"}, {\"id\": 3, \"text\": \"俺俺\"}, {\"id\": 4, \"text\": \"あーやっぱ逞じるねぇやばいねこれ\"}, {\"id\": 5, \"text\": \"そっちから煙見える？\"}, {\"id\": 6, \"text\": \"そう\"}, {\"id\": 7, \"text\": \"合流地点変えていい？\"}, {\"id\": 8, \"text\": \"うん\"}, {\"id\": 9, \"text\": \"たぶんこれ\"}, {\"id\": 10, \"text\": \"アサが来た\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "5186ef57d39cc9e71c7b0e29453b235a2937249948ea273dd53871dde6383ee1"
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "pageKind": "COVER",
+   "cover": false,
+   "regions": [
+    {
+     "id": 6,
+     "kind": "TEXT_FREE",
+     "readingIndex": 0,
+     "ocrText": "あれだけの",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_FREE",
+     "readingIndex": 1,
+     "ocrText": "Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_FREE",
+     "readingIndex": 2,
+     "ocrText": "．．．",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 1,
+     "kind": "TEXT_FREE",
+     "readingIndex": 3,
+     "ocrText": "「第四条館の豊富で、なら、それを",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_FREE",
+     "readingIndex": 4,
+     "ocrText": "．．．．．．",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 2,
+     "kind": "TEXT_FREE",
+     "readingIndex": 5,
+     "ocrText": "紫計",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_FREE",
+     "readingIndex": 6,
+     "ocrText": "一般的には",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_FREE",
+     "readingIndex": 7,
+     "ocrText": "『いい",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    6,
+    4,
+    7,
+    1,
+    5,
+    2,
+    3,
+    8
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "あれだけの"
+     },
+     {
+      "id": 2,
+      "text": "Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ"
+     },
+     {
+      "id": 3,
+      "text": "．．．"
+     },
+     {
+      "id": 4,
+      "text": "「第四条館の豊富で、なら、それを"
+     },
+     {
+      "id": 5,
+      "text": "．．．．．．"
+     },
+     {
+      "id": 6,
+      "text": "紫計"
+     },
+     {
+      "id": 7,
+      "text": "一般的には"
+     },
+     {
+      "id": 8,
+      "text": "『いい"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 6,
+    "2": 4,
+    "3": 7,
+    "4": 1,
+    "5": 5,
+    "6": 2,
+    "7": 3,
+    "8": 8
+   },
+   "cacheKey": "4b23ec89421773e42c3b9dfd68cb02bfe45c87ee6c981bc6644e0f7fbc3213ca",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "ea60bbd2d4e4d1456d2ce7ab87ad8192d057df549bfa4ee17f2786f53b90ab5e"
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "pageKind": "COVER",
+   "cover": true,
+   "regions": [
+    {
+     "id": 6,
+     "kind": "TEXT_FREE",
+     "readingIndex": 0,
+     "ocrText": "あれだけの",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 4,
+     "kind": "TEXT_FREE",
+     "readingIndex": 1,
+     "ocrText": "Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 7,
+     "kind": "TEXT_FREE",
+     "readingIndex": 2,
+     "ocrText": "．．．",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 1,
+     "kind": "TEXT_FREE",
+     "readingIndex": 3,
+     "ocrText": "「第四条館の豊富で、なら、それを",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 5,
+     "kind": "TEXT_FREE",
+     "readingIndex": 4,
+     "ocrText": "．．．．．．",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 2,
+     "kind": "TEXT_FREE",
+     "readingIndex": 5,
+     "ocrText": "紫計",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 3,
+     "kind": "TEXT_FREE",
+     "readingIndex": 6,
+     "ocrText": "一般的には",
+     "ocrTextEdited": null
+    },
+    {
+     "id": 8,
+     "kind": "TEXT_FREE",
+     "readingIndex": 7,
+     "ocrText": "『いい",
+     "ocrTextEdited": null
+    }
+   ],
+   "translatableIds": [
+    6,
+    4,
+    7,
+    1,
+    5,
+    2,
+    3,
+    8
+   ],
+   "request": {
+    "page_context": "",
+    "bubbles": [
+     {
+      "id": 1,
+      "text": "あれだけの"
+     },
+     {
+      "id": 2,
+      "text": "Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ"
+     },
+     {
+      "id": 3,
+      "text": "．．．"
+     },
+     {
+      "id": 4,
+      "text": "「第四条館の豊富で、なら、それを"
+     },
+     {
+      "id": 5,
+      "text": "．．．．．．"
+     },
+     {
+      "id": 6,
+      "text": "紫計"
+     },
+     {
+      "id": 7,
+      "text": "一般的には"
+     },
+     {
+      "id": 8,
+      "text": "『いい"
+     }
+    ]
+   },
+   "requestJson": "{\"page_context\": \"\", \"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}]}",
+   "canonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}], \"page_context\": \"\"}",
+   "indexMap": {
+    "1": 6,
+    "2": 4,
+    "3": 7,
+    "4": 1,
+    "5": 5,
+    "6": 2,
+    "7": 3,
+    "8": 8
+   },
+   "cacheKey": "7631ab2be5a1ec3227968edcc62316b1d157a35b9f571aa7782e8274c6056277",
+   "seriesContext": "Series: Test \"series\"\nJapanese series title: 日本語の題名\nUse established names.",
+   "contextRequestJson": "{\"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\", \"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}]}",
+   "contextCanonicalJson": "{\"bubbles\": [{\"id\": 1, \"text\": \"あれだけの\"}, {\"id\": 2, \"text\": \"Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ\"}, {\"id\": 3, \"text\": \"．．．\"}, {\"id\": 4, \"text\": \"「第四条館の豊富で、なら、それを\"}, {\"id\": 5, \"text\": \"．．．．．．\"}, {\"id\": 6, \"text\": \"紫計\"}, {\"id\": 7, \"text\": \"一般的には\"}, {\"id\": 8, \"text\": \"『いい\"}], \"page_context\": \"Series: Test \\\"series\\\"\\nJapanese series title: 日本語の題名\\nUse established names.\"}",
+   "contextCacheKey": "5fec2ae4999a20d3b5de63999efe225129e248cb382703bdae4c688b7432a56e"
+  }
+ ],
+ "responses": [
+  {
+   "name": "clean",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":\"Can you see the smoke from there?\"},{\"id\":2,\"en\":\"Want to change the meetup point?\"}]}",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {
+    "1": "Can you see the smoke from there?",
+    "2": "Want to change the meetup point?"
+   },
+   "declined": []
+  },
+  {
+   "name": "fenced",
+   "raw": "```json\n{\"translations\":[{\"id\":1,\"en\":\"Hey.\"}]}\n```",
+   "expectedIds": [
+    1
+   ],
+   "parsed": {
+    "1": "Hey."
+   },
+   "declined": []
+  },
+  {
+   "name": "prose_around_it",
+   "raw": "Sure! Here is the JSON you asked for:\n{\"translations\":[{\"id\":1,\"en\":\"Hey.\"}]}\nLet me know if you need more.",
+   "expectedIds": [
+    1
+   ],
+   "parsed": {
+    "1": "Hey."
+   },
+   "declined": []
+  },
+  {
+   "name": "stray_empty_array",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":\"Over here!\"},{\"id\":2,\"en\":\"Wait up.\"}][]}",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {
+    "1": "Over here!",
+    "2": "Wait up."
+   },
+   "declined": []
+  },
+  {
+   "name": "stops_early",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":\"One.\"},{\"id\":2,\"en\":\"Two.\"},{\"id\":3,\"en\":\"Three.\"}]}",
+   "expectedIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "parsed": {
+    "1": "One.",
+    "2": "Two.",
+    "3": "Three."
+   },
+   "declined": []
+  },
+  {
+   "name": "explicit_null",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":null},{\"id\":2,\"en\":\"Got it.\"}]}",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {
+    "2": "Got it."
+   },
+   "declined": [
+    1
+   ]
+  },
+  {
+   "name": "ids_out_of_range",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":\"Fine.\"},{\"id\":9,\"en\":\"Nonsense.\"}]}",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {
+    "1": "Fine."
+   },
+   "declined": []
+  },
+  {
+   "name": "whitespace_only_english",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":\"   \"},{\"id\":2,\"en\":\"  Real.  \"}]}",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {
+    "2": "Real."
+   },
+   "declined": []
+  },
+  {
+   "name": "bare_array",
+   "raw": "[{\"id\":1,\"en\":\"Loose.\"},{\"id\":2,\"en\":\"Also loose.\"}]",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {
+    "1": "Loose.",
+    "2": "Also loose."
+   },
+   "declined": []
+  },
+  {
+   "name": "brace_inside_string",
+   "raw": "{\"translations\":[{\"id\":1,\"en\":\"He wrote } on the board.\"}]}",
+   "expectedIds": [
+    1
+   ],
+   "parsed": {
+    "1": "He wrote } on the board."
+   },
+   "declined": []
+  },
+  {
+   "name": "reasoning_block_with_a_draft",
+   "raw": "<think>Let me try: {\"translations\":[{\"id\":1,\"en\":\"Wrong draft.\"}]}\nActually the register is rougher than that.</think>\n{\"translations\":[{\"id\":1,\"en\":\"Right answer.\"}]}",
+   "expectedIds": [
+    1
+   ],
+   "parsed": {
+    "1": "Right answer."
+   },
+   "declined": []
+  },
+  {
+   "name": "nothing_usable",
+   "raw": "Sorry, this page cannot be read.",
+   "expectedIds": [
+    1,
+    2
+   ],
+   "parsed": {},
+   "declined": []
+  }
+ ]
+}

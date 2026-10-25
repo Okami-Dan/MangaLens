@@ -1,0 +1,6727 @@
+{
+ "_meta": {
+  "built_by": "tools/export_analysis_fixture.py",
+  "source": "var/run_device",
+  "tokenizer": "janome (mecab-ipadic)",
+  "jmdict": {
+   "source": "scriptin/jmdict-simplified",
+   "jmdict_version": "3.6.2",
+   "dict_date": "2026-08-17",
+   "license": "JMdict/EDICT, EDRDG, CC BY-SA 4.0 -- attribution required",
+   "built_by": "tools/build_jmdict.py",
+   "schema_version": "2"
+  },
+  "sfx_entries": 209
+ },
+ "regions": [
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 9,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "誰の「ツガイ」だろう",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "誰",
+     "reading": "だれ",
+     "baseForm": "誰",
+     "baseReading": "だれ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "誰",
+       "ruby": "だれ"
+      }
+     ],
+     "romaji": "dare",
+     "jmdictEntryId": 1416830,
+     "glosses": [
+      {
+       "entryId": 1416830,
+       "pos": "pn",
+       "misc": "",
+       "text": "who",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "ツガイ",
+     "reading": "つがい",
+     "baseForm": "ツガイ",
+     "baseReading": "つがい",
+     "partOfSpeech": "名詞,固有名詞,一般,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ツガイ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "tsugai",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 5,
+     "surface": "だろ",
+     "reading": "だろ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だろ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "daro",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 6,
+     "surface": "う",
+     "reading": "う",
+     "baseForm": "う",
+     "baseReading": "う",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "う",
+       "ruby": ""
+      }
+     ],
+     "romaji": "u",
+     "jmdictEntryId": 2654300,
+     "glosses": [
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates speculation",
+       "common": false
+      },
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates will",
+       "common": false
+      },
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates invitation",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 8,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「幽霊」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "幽霊",
+     "reading": "ゆうれい",
+     "baseForm": "幽霊",
+     "baseReading": "ゆうれい",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "幽霊",
+       "ruby": "ゆうれい"
+      }
+     ],
+     "romaji": "yuurei",
+     "jmdictEntryId": 1540590,
+     "glosses": [
+      {
+       "entryId": 1540590,
+       "pos": "n",
+       "misc": "",
+       "text": "ghost; specter; spectre; apparition; phantom",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 6,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「妖怪」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "妖怪",
+     "reading": "ようかい",
+     "baseForm": "妖怪",
+     "baseReading": "ようかい",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "妖怪",
+       "ruby": "ようかい"
+      }
+     ],
+     "romaji": "youkai",
+     "jmdictEntryId": 1545300,
+     "glosses": [
+      {
+       "entryId": 1545300,
+       "pos": "n",
+       "misc": "",
+       "text": "ghost; apparition; phantom; spectre; specter; demon; monster; goblin; yōkai",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 3,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「化け物」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "化け物",
+     "reading": "ばけもの",
+     "baseForm": "化け物",
+     "baseReading": "ばけもの",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "化",
+       "ruby": "ば"
+      },
+      {
+       "text": "け",
+       "ruby": ""
+      },
+      {
+       "text": "物",
+       "ruby": "もの"
+      }
+     ],
+     "romaji": "bakemono",
+     "jmdictEntryId": 1601300,
+     "glosses": [
+      {
+       "entryId": 1601300,
+       "pos": "n",
+       "misc": "",
+       "text": "goblin; apparition; monster; ghost; phantom; spectre; specter",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 4,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「ＵＭＡ」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "ＵＭＡ",
+     "reading": "",
+     "baseForm": "ＵＭＡ",
+     "baseReading": "ユーマ",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ＵＭＡ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": 2216470,
+     "glosses": [
+      {
+       "entryId": 2216470,
+       "pos": "n",
+       "misc": "",
+       "text": "cryptid (animal whose existence is unsubstantiated, e.g. the yeti)",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 5,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「異形」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "異形",
+     "reading": "いぎょう",
+     "baseForm": "異形",
+     "baseReading": "いぎょう",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "異形",
+       "ruby": "いぎょう"
+      }
+     ],
+     "romaji": "igyou",
+     "jmdictEntryId": 1157630,
+     "glosses": [
+      {
+       "entryId": 1157630,
+       "pos": "adj-no,adj-na,n",
+       "misc": "",
+       "text": "fantastic; grotesque; strange-looking; suspicious-looking",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 2,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「対なるもの」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "対",
+     "reading": "たい",
+     "baseForm": "対",
+     "baseReading": "たい",
+     "partOfSpeech": "名詞,接続詞的,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "対",
+       "ruby": "たい"
+      }
+     ],
+     "romaji": "tai",
+     "jmdictEntryId": 1409800,
+     "glosses": [
+      {
+       "entryId": 1409800,
+       "pos": "n",
+       "misc": "",
+       "text": "versus; against; vs.; v.",
+       "common": true
+      },
+      {
+       "entryId": 1409800,
+       "pos": "n",
+       "misc": "",
+       "text": "to (e.g. score of 4 to 2, ratio of 3 to 1, vote of 320 to 180)",
+       "common": true
+      },
+      {
+       "entryId": 1409800,
+       "pos": "n-pref",
+       "misc": "",
+       "text": "toward ...; to ...; with ...; against ...; anti-",
+       "common": true
+      },
+      {
+       "entryId": 1409800,
+       "pos": "n",
+       "misc": "",
+       "text": "equal footing; equal terms",
+       "common": true
+      },
+      {
+       "entryId": 1409800,
+       "pos": "n",
+       "misc": "",
+       "text": "opposite",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "なる",
+     "reading": "なる",
+     "baseForm": "なる",
+     "baseReading": "なる",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "なる",
+       "ruby": ""
+      }
+     ],
+     "romaji": "naru",
+     "jmdictEntryId": 1375610,
+     "glosses": [
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to become; to get; to grow; to turn; to reach; to attain",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to result in; to turn out; to end up; to prove (to be)",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to consist of; to be composed of; to be made up of",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to be completed; to be realized; to succeed; to be attained; to be accomplished",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to change (into); to turn (into); to transform",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to come (to do); to begin (to do); to grow (to do)",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to come to; to amount to; to add up to; to make",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to play (the part of); to act as",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "uk",
+       "text": "to be used for; to be useful for; to serve as",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "v5r,vi",
+       "misc": "",
+       "text": "to be promoted",
+       "common": true
+      },
+      {
+       "entryId": 1375610,
+       "pos": "aux-v,v5r",
+       "misc": "hon,uk",
+       "text": "to do ...",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "もの",
+     "reading": "もの",
+     "baseForm": "もの",
+     "baseReading": "もの",
+     "partOfSpeech": "名詞,非自立,一般,*",
+     "posLabel": "noun (dependent)",
+     "furigana": [
+      {
+       "text": "もの",
+       "ruby": ""
+      }
+     ],
+     "romaji": "mono",
+     "jmdictEntryId": 1322990,
+     "glosses": [
+      {
+       "entryId": 1322990,
+       "pos": "n",
+       "misc": "",
+       "text": "person",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 7,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "主の言って聞くものだよねの",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "主",
+     "reading": "あるじ",
+     "baseForm": "主",
+     "baseReading": "あるじ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "主",
+       "ruby": "あるじ"
+      }
+     ],
+     "romaji": "aruji",
+     "jmdictEntryId": 2427550,
+     "glosses": [
+      {
+       "entryId": 2427550,
+       "pos": "n",
+       "misc": "",
+       "text": "head (of a household); proprietor (of a store); proprietress; landlord; landlady; master (of a servant)",
+       "common": true
+      },
+      {
+       "entryId": 2427550,
+       "pos": "n",
+       "misc": "arch",
+       "text": "entertaining someone as one's guest",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,格助詞,一般,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "言っ",
+     "reading": "いっ",
+     "baseForm": "言う",
+     "baseReading": "いう",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "言",
+       "ruby": "い"
+      },
+      {
+       "text": "っ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "i",
+     "jmdictEntryId": 1587040,
+     "glosses": [
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vt",
+       "misc": "",
+       "text": "to say; to utter; to declare",
+       "common": true
+      },
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vt",
+       "misc": "",
+       "text": "to name; to call",
+       "common": true
+      },
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vi",
+       "misc": "",
+       "text": "to go (e.g. \"the alarm went ping\"); to make a noise",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "て",
+     "reading": "て",
+     "baseForm": "て",
+     "baseReading": "て",
+     "partOfSpeech": "助詞,接続助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "て",
+       "ruby": ""
+      }
+     ],
+     "romaji": "te",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "聞く",
+     "reading": "きく",
+     "baseForm": "聞く",
+     "baseReading": "きく",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "聞",
+       "ruby": "き"
+      },
+      {
+       "text": "く",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kiku",
+     "jmdictEntryId": 1591110,
+     "glosses": [
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to hear",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to listen (e.g. to music)",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to ask; to enquire; to query",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to hear about; to hear of; to learn of",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to follow (advice, order, etc.); to obey; to listen to; to comply with",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to hear (e.g. a plea); to grant (a request); to accept (e.g. an argument); to give consideration to",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to smell (esp. incense); to sample (a fragrance)",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to taste (alcohol); to try",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "もの",
+     "reading": "もの",
+     "baseForm": "もの",
+     "baseReading": "もの",
+     "partOfSpeech": "名詞,非自立,一般,*",
+     "posLabel": "noun (dependent)",
+     "furigana": [
+      {
+       "text": "もの",
+       "ruby": ""
+      }
+     ],
+     "romaji": "mono",
+     "jmdictEntryId": 1322990,
+     "glosses": [
+      {
+       "entryId": 1322990,
+       "pos": "n",
+       "misc": "",
+       "text": "person",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 6,
+     "surface": "だ",
+     "reading": "だ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "da",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 7,
+     "surface": "よ",
+     "reading": "よ",
+     "baseForm": "よ",
+     "baseReading": "よ",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "よ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yo",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 8,
+     "surface": "ね",
+     "reading": "ね",
+     "baseForm": "ね",
+     "baseReading": "ね",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "ね",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ne",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 9,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_1_2026-08-22_14-04-30",
+   "region": 1,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "まぁ見る人によって色々呼ばれてて統一されてないけど",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "まぁ",
+     "reading": "まぁ",
+     "baseForm": "まぁ",
+     "baseReading": "まぁ",
+     "partOfSpeech": "感動詞,*,*,*",
+     "posLabel": "interjection",
+     "furigana": [
+      {
+       "text": "まぁ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "maa",
+     "jmdictEntryId": 1012050,
+     "glosses": [
+      {
+       "entryId": 1012050,
+       "pos": "int",
+       "misc": "fem",
+       "text": "oh!; oh dear!; oh, my!; wow!; goodness gracious!; good heavens!",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "見る",
+     "reading": "みる",
+     "baseForm": "見る",
+     "baseReading": "みる",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "見",
+       "ruby": "み"
+      },
+      {
+       "text": "る",
+       "ruby": ""
+      }
+     ],
+     "romaji": "miru",
+     "jmdictEntryId": 1259290,
+     "glosses": [
+      {
+       "entryId": 1259290,
+       "pos": "v1,vt",
+       "misc": "",
+       "text": "to see; to look; to watch; to view; to observe",
+       "common": true
+      },
+      {
+       "entryId": 1259290,
+       "pos": "v1,vt",
+       "misc": "",
+       "text": "to examine; to look over; to assess; to check; to judge",
+       "common": true
+      },
+      {
+       "entryId": 1259290,
+       "pos": "v1,vt",
+       "misc": "",
+       "text": "to look after; to attend to; to take care of; to keep an eye on",
+       "common": true
+      },
+      {
+       "entryId": 1259290,
+       "pos": "v1,vt",
+       "misc": "",
+       "text": "to experience; to meet with (misfortune, success, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1259290,
+       "pos": "aux-v,v1",
+       "misc": "uk",
+       "text": "to try ...; to have a go at ...; to give ... a try",
+       "common": true
+      },
+      {
+       "entryId": 1259290,
+       "pos": "aux-v,v1",
+       "misc": "uk",
+       "text": "to see (that) ...; to find (that) ...",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "人",
+     "reading": "ひと",
+     "baseForm": "人",
+     "baseReading": "ひと",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "人",
+       "ruby": "ひと"
+      }
+     ],
+     "romaji": "hito",
+     "jmdictEntryId": 1580640,
+     "glosses": [
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "person; someone; somebody",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "human beings; mankind; man; people; humans",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "uk",
+       "text": "human (Homo sapiens)",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "(other) people; others",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "character; personality; nature",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "capable person; competent person; suitable person; right person",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "adult; grown-up",
+       "common": true
+      },
+      {
+       "entryId": 1580640,
+       "pos": "n",
+       "misc": "",
+       "text": "I; me; one",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "によって",
+     "reading": "によって",
+     "baseForm": "によって",
+     "baseReading": "によって",
+     "partOfSpeech": "助詞,格助詞,連語,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "によって",
+       "ruby": ""
+      }
+     ],
+     "romaji": "niyotte",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "色々",
+     "reading": "いろいろ",
+     "baseForm": "色々",
+     "baseReading": "いろいろ",
+     "partOfSpeech": "副詞,助詞類接続,*,*",
+     "posLabel": "adverb",
+     "furigana": [
+      {
+       "text": "色々",
+       "ruby": "いろいろ"
+      }
+     ],
+     "romaji": "iroiro",
+     "jmdictEntryId": 1587850,
+     "glosses": [
+      {
+       "entryId": 1587850,
+       "pos": "adv,adv-to",
+       "misc": "uk",
+       "text": "variously; in various ways; in many ways",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "呼ば",
+     "reading": "よば",
+     "baseForm": "呼ぶ",
+     "baseReading": "よぶ",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "呼",
+       "ruby": "よ"
+      },
+      {
+       "text": "ば",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yoba",
+     "jmdictEntryId": 1266440,
+     "glosses": [
+      {
+       "entryId": 1266440,
+       "pos": "v5b,vt",
+       "misc": "",
+       "text": "to call out (to); to call; to invoke",
+       "common": true
+      },
+      {
+       "entryId": 1266440,
+       "pos": "v5b,vt",
+       "misc": "",
+       "text": "to summon (a doctor, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1266440,
+       "pos": "v5b,vt",
+       "misc": "",
+       "text": "to invite",
+       "common": true
+      },
+      {
+       "entryId": 1266440,
+       "pos": "v5b,vt",
+       "misc": "",
+       "text": "to designate; to name; to brand",
+       "common": true
+      },
+      {
+       "entryId": 1266440,
+       "pos": "v5b,vt",
+       "misc": "",
+       "text": "to garner (support, etc.); to gather",
+       "common": true
+      },
+      {
+       "entryId": 1266440,
+       "pos": "v5b,vt",
+       "misc": "arch",
+       "text": "to take as one's wife",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 6,
+     "surface": "れ",
+     "reading": "れ",
+     "baseForm": "れる",
+     "baseReading": "れる",
+     "partOfSpeech": "動詞,接尾,*,*",
+     "posLabel": "verb (suffix)",
+     "furigana": [
+      {
+       "text": "れ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "re",
+     "jmdictEntryId": 2568000,
+     "glosses": [
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "",
+       "text": "indicates passive voice (incl. the \"suffering passive\")",
+       "common": false
+      },
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "",
+       "text": "indicates the potential form",
+       "common": false
+      },
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "",
+       "text": "indicates spontaneous occurrence",
+       "common": false
+      },
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "hon",
+       "text": "used as an honorific for others' actions",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 7,
+     "surface": "て",
+     "reading": "て",
+     "baseForm": "てる",
+     "baseReading": "て",
+     "partOfSpeech": "動詞,非自立,*,*",
+     "posLabel": "verb (dependent)",
+     "furigana": [
+      {
+       "text": "て",
+       "ruby": ""
+      }
+     ],
+     "romaji": "te",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 8,
+     "surface": "て",
+     "reading": "て",
+     "baseForm": "て",
+     "baseReading": "て",
+     "partOfSpeech": "助詞,接続助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "て",
+       "ruby": ""
+      }
+     ],
+     "romaji": "te",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 9,
+     "surface": "統一",
+     "reading": "とういつ",
+     "baseForm": "統一",
+     "baseReading": "とういつ",
+     "partOfSpeech": "名詞,サ変接続,*,*",
+     "posLabel": "noun (suru-verb)",
+     "furigana": [
+      {
+       "text": "統一",
+       "ruby": "とういつ"
+      }
+     ],
+     "romaji": "touitsu",
+     "jmdictEntryId": 1449670,
+     "glosses": [
+      {
+       "entryId": 1449670,
+       "pos": "n,vs,vt",
+       "misc": "",
+       "text": "unity; consolidation; uniformity; unification; compatible",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 10,
+     "surface": "さ",
+     "reading": "さ",
+     "baseForm": "する",
+     "baseReading": "する",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "さ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "sa",
+     "jmdictEntryId": 1157170,
+     "glosses": [
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to do; to carry out; to perform",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to cause to become; to make (into); to turn (into)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to serve as; to act as; to work as",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to wear (clothes, a facial expression, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to judge as being; to view as being; to think of as; to treat as; to use as",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to decide on; to choose",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be sensed (of a smell, noise, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be (in a state, condition, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be worth; to cost",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to pass (of time); to elapse",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to place, or raise, person A to a post or status B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to transform A to B; to make A into B; to exchange A for B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to make use of A for B; to view A as B; to handle A as if it were B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to feel A about B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "suf,vs-i",
+       "misc": "uk",
+       "text": "verbalizing suffix (applies to nouns noted in this dictionary with the part of speech \"vs\")",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "aux-v,vs-i",
+       "misc": "uk",
+       "text": "creates a humble verb (after a noun prefixed with \"o\" or \"go\")",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 11,
+     "surface": "れ",
+     "reading": "れ",
+     "baseForm": "れる",
+     "baseReading": "れる",
+     "partOfSpeech": "動詞,接尾,*,*",
+     "posLabel": "verb (suffix)",
+     "furigana": [
+      {
+       "text": "れ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "re",
+     "jmdictEntryId": 2568000,
+     "glosses": [
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "",
+       "text": "indicates passive voice (incl. the \"suffering passive\")",
+       "common": false
+      },
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "",
+       "text": "indicates the potential form",
+       "common": false
+      },
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "",
+       "text": "indicates spontaneous occurrence",
+       "common": false
+      },
+      {
+       "entryId": 2568000,
+       "pos": "aux-v,v1",
+       "misc": "hon",
+       "text": "used as an honorific for others' actions",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 12,
+     "surface": "て",
+     "reading": "て",
+     "baseForm": "てる",
+     "baseReading": "て",
+     "partOfSpeech": "動詞,非自立,*,*",
+     "posLabel": "verb (dependent)",
+     "furigana": [
+      {
+       "text": "て",
+       "ruby": ""
+      }
+     ],
+     "romaji": "te",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 13,
+     "surface": "ない",
+     "reading": "ない",
+     "baseForm": "ない",
+     "baseReading": "ない",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "ない",
+       "ruby": ""
+      }
+     ],
+     "romaji": "nai",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 14,
+     "surface": "けど",
+     "reading": "けど",
+     "baseForm": "けど",
+     "baseReading": "けど",
+     "partOfSpeech": "助詞,接続助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "けど",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kedo",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 1,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "なーんか出ちゃったねぇ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "なー",
+     "reading": "なー",
+     "baseForm": "なー",
+     "baseReading": "なー",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "なー",
+       "ruby": ""
+      }
+     ],
+     "romaji": "nā",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "ん",
+     "reading": "ん",
+     "baseForm": "ん",
+     "baseReading": "ん",
+     "partOfSpeech": "名詞,非自立,一般,*",
+     "posLabel": "noun (dependent)",
+     "furigana": [
+      {
+       "text": "ん",
+       "ruby": ""
+      }
+     ],
+     "romaji": "n",
+     "jmdictEntryId": 2759530,
+     "glosses": [
+      {
+       "entryId": 2759530,
+       "pos": "n-pref",
+       "misc": "",
+       "text": "some",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "か",
+     "reading": "か",
+     "baseForm": "か",
+     "baseReading": "か",
+     "partOfSpeech": "助詞,副助詞／並立助詞／終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "か",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ka",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "出",
+     "reading": "で",
+     "baseForm": "出る",
+     "baseReading": "でる",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "出",
+       "ruby": "で"
+      }
+     ],
+     "romaji": "de",
+     "jmdictEntryId": 1338240,
+     "glosses": [
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to leave; to exit; to go out; to come out; to get out",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to leave (on a journey); to depart; to start out; to set out",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to move forward",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to come to; to get to; to lead to; to reach",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to appear; to come out; to emerge; to surface; to come forth; to turn up; to be found; to be detected; to be discovered; to be exposed; to show; to be exhibited; to be on display",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to appear (in print); to be published; to be announced; to be issued; to be listed; to come out",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to attend; to participate; to take part; to enter (an event); to play in; to perform",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to be stated; to be expressed; to come up; to be brought up; to be raised",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to sell",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to exceed; to go over",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to stick out; to protrude",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to break out; to occur; to start; to originate",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to be produced",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to come from; to be derived from",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to be given; to get; to receive; to be offered; to be provided; to be presented; to be submitted; to be handed in; to be turned in; to be paid",
+       "common": true
+      },
+      {
+       "entryId": 1338240,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to answer (phone, door, etc.); to get",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "ちゃっ",
+     "reading": "ちゃっ",
+     "baseForm": "ちゃう",
+     "baseReading": "ちゃっ",
+     "partOfSpeech": "動詞,非自立,*,*",
+     "posLabel": "verb (dependent)",
+     "furigana": [
+      {
+       "text": "ちゃっ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "cha",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "た",
+     "reading": "た",
+     "baseForm": "た",
+     "baseReading": "た",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "た",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ta",
+     "jmdictEntryId": 2654250,
+     "glosses": [
+      {
+       "entryId": 2654250,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "did; (have) done",
+       "common": false
+      },
+      {
+       "entryId": 2654250,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "(please) do",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 6,
+     "surface": "ねぇ",
+     "reading": "ねぇ",
+     "baseForm": "ねぇ",
+     "baseReading": "ねぇ",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "ねぇ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "nee",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 12,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_FREE",
+   "text": "おはようございます",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "おはよう",
+     "reading": "おはよう",
+     "baseForm": "おはよう",
+     "baseReading": "おはよう",
+     "partOfSpeech": "感動詞,*,*,*",
+     "posLabel": "interjection",
+     "furigana": [
+      {
+       "text": "おはよう",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ohayou",
+     "jmdictEntryId": 1612820,
+     "glosses": [
+      {
+       "entryId": 1612820,
+       "pos": "int",
+       "misc": "uk",
+       "text": "good morning",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "ござい",
+     "reading": "ござい",
+     "baseForm": "ござる",
+     "baseReading": "ござる",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "ござい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "gozai",
+     "jmdictEntryId": 1270350,
+     "glosses": [
+      {
+       "entryId": 1270350,
+       "pos": "aux-v,v5r",
+       "misc": "hon,arch,uk",
+       "text": "to be (doing)",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "ます",
+     "reading": "ます",
+     "baseForm": "ます",
+     "baseReading": "ます",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "ます",
+       "ruby": ""
+      }
+     ],
+     "romaji": "masu",
+     "jmdictEntryId": 2210290,
+     "glosses": [
+      {
+       "entryId": 2210290,
+       "pos": "aux-v",
+       "misc": "pol",
+       "text": "expresses politeness towards the listener (or reader)",
+       "common": false
+      },
+      {
+       "entryId": 2210290,
+       "pos": "aux-v",
+       "misc": "arch,hum",
+       "text": "expresses respect towards those affected by the action",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 11,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "「なんだ」",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "なん",
+     "reading": "なん",
+     "baseForm": "なん",
+     "baseReading": "なん",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "なん",
+       "ruby": ""
+      }
+     ],
+     "romaji": "nan",
+     "jmdictEntryId": 1460830,
+     "glosses": [
+      {
+       "entryId": 1460830,
+       "pos": "n,n-suf",
+       "misc": "",
+       "text": "difficulty; trouble; hardship; shortage",
+       "common": true
+      },
+      {
+       "entryId": 1460830,
+       "pos": "n",
+       "misc": "",
+       "text": "accident; disaster; danger",
+       "common": true
+      },
+      {
+       "entryId": 1460830,
+       "pos": "n",
+       "misc": "",
+       "text": "fault; defect; flaw",
+       "common": true
+      },
+      {
+       "entryId": 1460830,
+       "pos": "n",
+       "misc": "",
+       "text": "criticism; charge; blame",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "だ",
+     "reading": "だ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "da",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "」",
+     "reading": "」",
+     "baseForm": "」",
+     "baseReading": "」",
+     "partOfSpeech": "記号,括弧閉,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "」",
+       "ruby": ""
+      }
+     ],
+     "romaji": "」",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 2,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "弱い奴だといいなぁ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "弱い",
+     "reading": "よわい",
+     "baseForm": "弱い",
+     "baseReading": "よわい",
+     "partOfSpeech": "形容詞,自立,*,*",
+     "posLabel": "i-adjective",
+     "furigana": [
+      {
+       "text": "弱",
+       "ruby": "よわ"
+      },
+      {
+       "text": "い",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yowai",
+     "jmdictEntryId": 1324520,
+     "glosses": [
+      {
+       "entryId": 1324520,
+       "pos": "adj-i",
+       "misc": "",
+       "text": "weak; frail; delicate; tender; unskilled; weak (wine)",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "奴",
+     "reading": "やっこ",
+     "baseForm": "奴",
+     "baseReading": "やっこ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "奴",
+       "ruby": "やっこ"
+      }
+     ],
+     "romaji": "yakko",
+     "jmdictEntryId": 1445630,
+     "glosses": [
+      {
+       "entryId": 1445630,
+       "pos": "n",
+       "misc": "",
+       "text": "servant (esp. a samurai's attendant)",
+       "common": false
+      },
+      {
+       "entryId": 1445630,
+       "pos": "n",
+       "misc": "",
+       "text": "chivalrous man (Edo period)",
+       "common": false
+      },
+      {
+       "entryId": 1445630,
+       "pos": "n",
+       "misc": "abbr",
+       "text": "cubed tofu (often served cold)",
+       "common": false
+      },
+      {
+       "entryId": 1445630,
+       "pos": "n",
+       "misc": "abbr",
+       "text": "kite shaped like an Edo-period footman",
+       "common": false
+      },
+      {
+       "entryId": 1445630,
+       "pos": "n",
+       "misc": "abbr",
+       "text": "Edo-period hairstyle worn by samurai's attendants",
+       "common": false
+      },
+      {
+       "entryId": 1445630,
+       "pos": "n",
+       "misc": "",
+       "text": "enslavement (of a woman; Edo-period punishment for her own or her husband's crime)",
+       "common": false
+      },
+      {
+       "entryId": 1445630,
+       "pos": "pn",
+       "misc": "arch,derog",
+       "text": "he; she; him; her",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "だ",
+     "reading": "だ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "da",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "と",
+     "reading": "と",
+     "baseForm": "と",
+     "baseReading": "と",
+     "partOfSpeech": "助詞,格助詞,引用,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "と",
+       "ruby": ""
+      }
+     ],
+     "romaji": "to",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "いい",
+     "reading": "いい",
+     "baseForm": "いう",
+     "baseReading": "いう",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "いい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ii",
+     "jmdictEntryId": 1587040,
+     "glosses": [
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vt",
+       "misc": "",
+       "text": "to say; to utter; to declare",
+       "common": true
+      },
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vt",
+       "misc": "",
+       "text": "to name; to call",
+       "common": true
+      },
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vi",
+       "misc": "",
+       "text": "to go (e.g. \"the alarm went ping\"); to make a noise",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "なぁ",
+     "reading": "なぁ",
+     "baseForm": "なぁ",
+     "baseReading": "なぁ",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "なぁ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "naa",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 9,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "おいおいおい今度の主は子供だぞ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "おい",
+     "reading": "おい",
+     "baseForm": "おい",
+     "baseReading": "おい",
+     "partOfSpeech": "感動詞,*,*,*",
+     "posLabel": "interjection",
+     "furigana": [
+      {
+       "text": "おい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "oi",
+     "jmdictEntryId": 1001200,
+     "glosses": [
+      {
+       "entryId": 1001200,
+       "pos": "int",
+       "misc": "fam,male",
+       "text": "hey!; say!; I say!; come on!; look!; oi!",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "おいおい",
+     "reading": "おいおい",
+     "baseForm": "おいおい",
+     "baseReading": "おいおい",
+     "partOfSpeech": "副詞,一般,*,*",
+     "posLabel": "adverb",
+     "furigana": [
+      {
+       "text": "おいおい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "oioi",
+     "jmdictEntryId": 1631660,
+     "glosses": [
+      {
+       "entryId": 1631660,
+       "pos": "adv,adv-to",
+       "misc": "on-mim",
+       "text": "boohoo; waaaa",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "今度",
+     "reading": "こんど",
+     "baseForm": "今度",
+     "baseReading": "こんど",
+     "partOfSpeech": "名詞,副詞可能,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "今度",
+       "ruby": "こんど"
+      }
+     ],
+     "romaji": "kondo",
+     "jmdictEntryId": 1289370,
+     "glosses": [
+      {
+       "entryId": 1289370,
+       "pos": "n,adv",
+       "misc": "",
+       "text": "this time; now",
+       "common": true
+      },
+      {
+       "entryId": 1289370,
+       "pos": "n,adv",
+       "misc": "",
+       "text": "next time; another time; shortly; soon",
+       "common": true
+      },
+      {
+       "entryId": 1289370,
+       "pos": "n,adv",
+       "misc": "",
+       "text": "recently; lately; the other day",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "主",
+     "reading": "あるじ",
+     "baseForm": "主",
+     "baseReading": "あるじ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "主",
+       "ruby": "あるじ"
+      }
+     ],
+     "romaji": "aruji",
+     "jmdictEntryId": 2427550,
+     "glosses": [
+      {
+       "entryId": 2427550,
+       "pos": "n",
+       "misc": "",
+       "text": "head (of a household); proprietor (of a store); proprietress; landlord; landlady; master (of a servant)",
+       "common": true
+      },
+      {
+       "entryId": 2427550,
+       "pos": "n",
+       "misc": "arch",
+       "text": "entertaining someone as one's guest",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "は",
+     "reading": "は",
+     "baseForm": "は",
+     "baseReading": "は",
+     "partOfSpeech": "助詞,係助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "は",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ha",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 6,
+     "surface": "子供",
+     "reading": "こども",
+     "baseForm": "子供",
+     "baseReading": "こども",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "子供",
+       "ruby": "こども"
+      }
+     ],
+     "romaji": "kodomo",
+     "jmdictEntryId": 1307850,
+     "glosses": [
+      {
+       "entryId": 1307850,
+       "pos": "n",
+       "misc": "",
+       "text": "child; children",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 7,
+     "surface": "だ",
+     "reading": "だ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "da",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 8,
+     "surface": "ぞ",
+     "reading": "ぞ",
+     "baseForm": "ぞ",
+     "baseReading": "ぞ",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "ぞ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "zo",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 4,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "御しやすそうだな",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "御",
+     "reading": "ご",
+     "baseForm": "御",
+     "baseReading": "ご",
+     "partOfSpeech": "接頭詞,名詞接続,*,*",
+     "posLabel": "prefix",
+     "furigana": [
+      {
+       "text": "御",
+       "ruby": "ご"
+      }
+     ],
+     "romaji": "go",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "し",
+     "reading": "し",
+     "baseForm": "する",
+     "baseReading": "する",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "し",
+       "ruby": ""
+      }
+     ],
+     "romaji": "shi",
+     "jmdictEntryId": 1157170,
+     "glosses": [
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to do; to carry out; to perform",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to cause to become; to make (into); to turn (into)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to serve as; to act as; to work as",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to wear (clothes, a facial expression, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to judge as being; to view as being; to think of as; to treat as; to use as",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to decide on; to choose",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be sensed (of a smell, noise, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be (in a state, condition, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be worth; to cost",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to pass (of time); to elapse",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to place, or raise, person A to a post or status B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to transform A to B; to make A into B; to exchange A for B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to make use of A for B; to view A as B; to handle A as if it were B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to feel A about B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "suf,vs-i",
+       "misc": "uk",
+       "text": "verbalizing suffix (applies to nouns noted in this dictionary with the part of speech \"vs\")",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "aux-v,vs-i",
+       "misc": "uk",
+       "text": "creates a humble verb (after a noun prefixed with \"o\" or \"go\")",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "やす",
+     "reading": "やす",
+     "baseForm": "やす",
+     "baseReading": "やす",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "やす",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yasu",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "そう",
+     "reading": "そう",
+     "baseForm": "そう",
+     "baseReading": "そう",
+     "partOfSpeech": "名詞,特殊,助動詞語幹,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "そう",
+       "ruby": ""
+      }
+     ],
+     "romaji": "sou",
+     "jmdictEntryId": 1006610,
+     "glosses": [
+      {
+       "entryId": 1006610,
+       "pos": "aux,adj-na",
+       "misc": "",
+       "text": "appearing that; seeming that; looking like; having the appearance of",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "だ",
+     "reading": "だ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "da",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 5,
+     "surface": "な",
+     "reading": "な",
+     "baseForm": "な",
+     "baseReading": "な",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "な",
+       "ruby": ""
+      }
+     ],
+     "romaji": "na",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 8,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "左の",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "左",
+     "reading": "ひだり",
+     "baseForm": "左",
+     "baseReading": "ひだり",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "左",
+       "ruby": "ひだり"
+      }
+     ],
+     "romaji": "hidari",
+     "jmdictEntryId": 1290800,
+     "glosses": [
+      {
+       "entryId": 1290800,
+       "pos": "n,adj-no",
+       "misc": "",
+       "text": "left; left-hand side",
+       "common": true
+      },
+      {
+       "entryId": 1290800,
+       "pos": "n",
+       "misc": "",
+       "text": "left hand",
+       "common": true
+      },
+      {
+       "entryId": 1290800,
+       "pos": "n",
+       "misc": "",
+       "text": "the left (wing); leftist",
+       "common": true
+      },
+      {
+       "entryId": 1290800,
+       "pos": "n",
+       "misc": "",
+       "text": "fondness for alcohol; drinker",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 3,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "子供たろうが大人だろうが主の言う事は聞くものだよ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "子供",
+     "reading": "こども",
+     "baseForm": "子供",
+     "baseReading": "こども",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "子供",
+       "ruby": "こども"
+      }
+     ],
+     "romaji": "kodomo",
+     "jmdictEntryId": 1307850,
+     "glosses": [
+      {
+       "entryId": 1307850,
+       "pos": "n",
+       "misc": "",
+       "text": "child; children",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "たろ",
+     "reading": "たろ",
+     "baseForm": "た",
+     "baseReading": "た",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "たろ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "taro",
+     "jmdictEntryId": 2654250,
+     "glosses": [
+      {
+       "entryId": 2654250,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "did; (have) done",
+       "common": false
+      },
+      {
+       "entryId": 2654250,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "(please) do",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "う",
+     "reading": "う",
+     "baseForm": "う",
+     "baseReading": "う",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "う",
+       "ruby": ""
+      }
+     ],
+     "romaji": "u",
+     "jmdictEntryId": 2654300,
+     "glosses": [
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates speculation",
+       "common": false
+      },
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates will",
+       "common": false
+      },
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates invitation",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "が",
+     "reading": "が",
+     "baseForm": "が",
+     "baseReading": "が",
+     "partOfSpeech": "助詞,接続助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "が",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ga",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "大人",
+     "reading": "おとな",
+     "baseForm": "大人",
+     "baseReading": "おとな",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "大人",
+       "ruby": "おとな"
+      }
+     ],
+     "romaji": "otona",
+     "jmdictEntryId": 1414170,
+     "glosses": [
+      {
+       "entryId": 1414170,
+       "pos": "n,adj-no,adj-na",
+       "misc": "",
+       "text": "adult; grown-up",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "だろ",
+     "reading": "だろ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だろ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "daro",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 6,
+     "surface": "う",
+     "reading": "う",
+     "baseForm": "う",
+     "baseReading": "う",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "う",
+       "ruby": ""
+      }
+     ],
+     "romaji": "u",
+     "jmdictEntryId": 2654300,
+     "glosses": [
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates speculation",
+       "common": false
+      },
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates will",
+       "common": false
+      },
+      {
+       "entryId": 2654300,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "indicates invitation",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 7,
+     "surface": "が",
+     "reading": "が",
+     "baseForm": "が",
+     "baseReading": "が",
+     "partOfSpeech": "助詞,接続助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "が",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ga",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 8,
+     "surface": "主",
+     "reading": "あるじ",
+     "baseForm": "主",
+     "baseReading": "あるじ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "主",
+       "ruby": "あるじ"
+      }
+     ],
+     "romaji": "aruji",
+     "jmdictEntryId": 2427550,
+     "glosses": [
+      {
+       "entryId": 2427550,
+       "pos": "n",
+       "misc": "",
+       "text": "head (of a household); proprietor (of a store); proprietress; landlord; landlady; master (of a servant)",
+       "common": true
+      },
+      {
+       "entryId": 2427550,
+       "pos": "n",
+       "misc": "arch",
+       "text": "entertaining someone as one's guest",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 9,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,格助詞,一般,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 10,
+     "surface": "言う",
+     "reading": "いう",
+     "baseForm": "言う",
+     "baseReading": "いう",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "言",
+       "ruby": "い"
+      },
+      {
+       "text": "う",
+       "ruby": ""
+      }
+     ],
+     "romaji": "iu",
+     "jmdictEntryId": 1587040,
+     "glosses": [
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vt",
+       "misc": "",
+       "text": "to say; to utter; to declare",
+       "common": true
+      },
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vt",
+       "misc": "",
+       "text": "to name; to call",
+       "common": true
+      },
+      {
+       "entryId": 1587040,
+       "pos": "v5u,vi",
+       "misc": "",
+       "text": "to go (e.g. \"the alarm went ping\"); to make a noise",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 11,
+     "surface": "事",
+     "reading": "こと",
+     "baseForm": "事",
+     "baseReading": "こと",
+     "partOfSpeech": "名詞,非自立,一般,*",
+     "posLabel": "noun (dependent)",
+     "furigana": [
+      {
+       "text": "事",
+       "ruby": "こと"
+      }
+     ],
+     "romaji": "koto",
+     "jmdictEntryId": 1313580,
+     "glosses": [
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "thing; matter",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "incident; occurrence; event; something serious; trouble; crisis",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "circumstances; situation; state of affairs",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "work; business; affair",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "after an inflectable word, creates a noun phrase indicating something the speaker does not feel close to",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n-suf",
+       "misc": "uk",
+       "text": "nominalizing suffix",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n-suf",
+       "misc": "uk",
+       "text": "pretending to ...; playing make-believe ...",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "alias; also known as; otherwise known as; or",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "necessity; need",
+       "common": true
+      },
+      {
+       "entryId": 1313580,
+       "pos": "n",
+       "misc": "uk",
+       "text": "you should ...; I advise that you ...; it's important to ...",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 12,
+     "surface": "は",
+     "reading": "は",
+     "baseForm": "は",
+     "baseReading": "は",
+     "partOfSpeech": "助詞,係助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "は",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ha",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 13,
+     "surface": "聞く",
+     "reading": "きく",
+     "baseForm": "聞く",
+     "baseReading": "きく",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "聞",
+       "ruby": "き"
+      },
+      {
+       "text": "く",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kiku",
+     "jmdictEntryId": 1591110,
+     "glosses": [
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to hear",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to listen (e.g. to music)",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to ask; to enquire; to query",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to hear about; to hear of; to learn of",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to follow (advice, order, etc.); to obey; to listen to; to comply with",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to hear (e.g. a plea); to grant (a request); to accept (e.g. an argument); to give consideration to",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to smell (esp. incense); to sample (a fragrance)",
+       "common": true
+      },
+      {
+       "entryId": 1591110,
+       "pos": "v5k,vt",
+       "misc": "",
+       "text": "to taste (alcohol); to try",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 14,
+     "surface": "もの",
+     "reading": "もの",
+     "baseForm": "もの",
+     "baseReading": "もの",
+     "partOfSpeech": "名詞,非自立,一般,*",
+     "posLabel": "noun (dependent)",
+     "furigana": [
+      {
+       "text": "もの",
+       "ruby": ""
+      }
+     ],
+     "romaji": "mono",
+     "jmdictEntryId": 1322990,
+     "glosses": [
+      {
+       "entryId": 1322990,
+       "pos": "n",
+       "misc": "",
+       "text": "person",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 15,
+     "surface": "だ",
+     "reading": "だ",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "だ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "da",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 16,
+     "surface": "よ",
+     "reading": "よ",
+     "baseForm": "よ",
+     "baseReading": "よ",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "よ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yo",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_2_2026-08-22_14-04-32",
+   "region": 10,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "右の",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "右",
+     "reading": "みぎ",
+     "baseForm": "右",
+     "baseReading": "みぎ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "右",
+       "ruby": "みぎ"
+      }
+     ],
+     "romaji": "migi",
+     "jmdictEntryId": 1171010,
+     "glosses": [
+      {
+       "entryId": 1171010,
+       "pos": "n,adj-no",
+       "misc": "",
+       "text": "right; right-hand side",
+       "common": true
+      },
+      {
+       "entryId": 1171010,
+       "pos": "n",
+       "misc": "",
+       "text": "right hand",
+       "common": true
+      },
+      {
+       "entryId": 1171010,
+       "pos": "n,adj-no",
+       "misc": "",
+       "text": "the above (in a piece of vertical writing); above-mentioned",
+       "common": true
+      },
+      {
+       "entryId": 1171010,
+       "pos": "n",
+       "misc": "",
+       "text": "the right (wing); rightist",
+       "common": true
+      },
+      {
+       "entryId": 1171010,
+       "pos": "n",
+       "misc": "",
+       "text": "the better (of two)",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 2,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "もしもーしハナちゃん",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "もしも",
+     "reading": "もしも",
+     "baseForm": "もしも",
+     "baseReading": "もしも",
+     "partOfSpeech": "副詞,助詞類接続,*,*",
+     "posLabel": "adverb",
+     "furigana": [
+      {
+       "text": "もしも",
+       "ruby": ""
+      }
+     ],
+     "romaji": "moshimo",
+     "jmdictEntryId": 1612050,
+     "glosses": [
+      {
+       "entryId": 1612050,
+       "pos": "adv",
+       "misc": "uk",
+       "text": "if; in case; supposing",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "ー",
+     "reading": "ー",
+     "baseForm": "ー",
+     "baseReading": "ー",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "ー",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "し",
+     "reading": "し",
+     "baseForm": "する",
+     "baseReading": "する",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "し",
+       "ruby": ""
+      }
+     ],
+     "romaji": "shi",
+     "jmdictEntryId": 1157170,
+     "glosses": [
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to do; to carry out; to perform",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to cause to become; to make (into); to turn (into)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to serve as; to act as; to work as",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to wear (clothes, a facial expression, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to judge as being; to view as being; to think of as; to treat as; to use as",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i",
+       "misc": "uk",
+       "text": "to decide on; to choose",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be sensed (of a smell, noise, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be (in a state, condition, etc.)",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to be worth; to cost",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vi",
+       "misc": "uk",
+       "text": "to pass (of time); to elapse",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to place, or raise, person A to a post or status B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to transform A to B; to make A into B; to exchange A for B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to make use of A for B; to view A as B; to handle A as if it were B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "vs-i,vt",
+       "misc": "uk",
+       "text": "to feel A about B",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "suf,vs-i",
+       "misc": "uk",
+       "text": "verbalizing suffix (applies to nouns noted in this dictionary with the part of speech \"vs\")",
+       "common": true
+      },
+      {
+       "entryId": 1157170,
+       "pos": "aux-v,vs-i",
+       "misc": "uk",
+       "text": "creates a humble verb (after a noun prefixed with \"o\" or \"go\")",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "ハナ",
+     "reading": "はな",
+     "baseForm": "ハナ",
+     "baseReading": "はな",
+     "partOfSpeech": "名詞,固有名詞,人名,名",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ハナ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "hana",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "ちゃん",
+     "reading": "ちゃん",
+     "baseForm": "ちゃん",
+     "baseReading": "ちゃん",
+     "partOfSpeech": "名詞,接尾,人名,*",
+     "posLabel": "noun (suffix)",
+     "furigana": [
+      {
+       "text": "ちゃん",
+       "ruby": ""
+      }
+     ],
+     "romaji": "chan",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 10,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_FREE",
+   "text": "黄泉のツガイロ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "黄泉",
+     "reading": "よみ",
+     "baseForm": "黄泉",
+     "baseReading": "よみ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "黄泉",
+       "ruby": "よみ"
+      }
+     ],
+     "romaji": "yomi",
+     "jmdictEntryId": 1182110,
+     "glosses": [
+      {
+       "entryId": 1182110,
+       "pos": "n",
+       "misc": "",
+       "text": "Hades; hell; underworld",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "ツガイロ",
+     "reading": "つがいろ",
+     "baseForm": "ツガイロ",
+     "baseReading": "つがいろ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "ツガイロ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "tsugairo",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 6,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "俺俺",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "俺",
+     "reading": "おれ",
+     "baseForm": "俺",
+     "baseReading": "おれ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "俺",
+       "ruby": "おれ"
+      }
+     ],
+     "romaji": "ore",
+     "jmdictEntryId": 1576870,
+     "glosses": [
+      {
+       "entryId": 1576870,
+       "pos": "pn",
+       "misc": "male",
+       "text": "I; me",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "俺",
+     "reading": "おれ",
+     "baseForm": "俺",
+     "baseReading": "おれ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "俺",
+       "ruby": "おれ"
+      }
+     ],
+     "romaji": "ore",
+     "jmdictEntryId": 1576870,
+     "glosses": [
+      {
+       "entryId": 1576870,
+       "pos": "pn",
+       "misc": "male",
+       "text": "I; me",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 1,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "あーやっぱ逞じるねぇやばいねこれ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "あー",
+     "reading": "あー",
+     "baseForm": "あー",
+     "baseReading": "あー",
+     "partOfSpeech": "フィラー,*,*,*",
+     "posLabel": "filler",
+     "furigana": [
+      {
+       "text": "あー",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ā",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "やっぱ",
+     "reading": "やっぱ",
+     "baseForm": "やっぱ",
+     "baseReading": "やっぱ",
+     "partOfSpeech": "副詞,一般,*,*",
+     "posLabel": "adverb",
+     "furigana": [
+      {
+       "text": "やっぱ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yappa",
+     "jmdictEntryId": 2772780,
+     "glosses": [
+      {
+       "entryId": 2772780,
+       "pos": "adv",
+       "misc": "abbr",
+       "text": "too; also; likewise; either",
+       "common": false
+      },
+      {
+       "entryId": 2772780,
+       "pos": "adv",
+       "misc": "abbr",
+       "text": "still; as before",
+       "common": false
+      },
+      {
+       "entryId": 2772780,
+       "pos": "adv",
+       "misc": "abbr",
+       "text": "even so; either way; nonetheless; in any event; all the same",
+       "common": false
+      },
+      {
+       "entryId": 2772780,
+       "pos": "adv",
+       "misc": "abbr",
+       "text": "as expected",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "逞",
+     "reading": "",
+     "baseForm": "逞",
+     "baseReading": "",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "逞",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "じ",
+     "reading": "じ",
+     "baseForm": "じ",
+     "baseReading": "じ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "じ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ji",
+     "jmdictEntryId": 2844468,
+     "glosses": [
+      {
+       "entryId": 2844468,
+       "pos": "aux",
+       "misc": "arch",
+       "text": "probably isn't (doesn't, won't, etc.)",
+       "common": false
+      },
+      {
+       "entryId": 2844468,
+       "pos": "aux",
+       "misc": "arch",
+       "text": "will not; must not; don't intend to",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "る",
+     "reading": "る",
+     "baseForm": "る",
+     "baseReading": "る",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "る",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ru",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 5,
+     "surface": "ねぇ",
+     "reading": "ねぇ",
+     "baseForm": "ねぇ",
+     "baseReading": "ねぇ",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "ねぇ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "nee",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 6,
+     "surface": "やばい",
+     "reading": "やばい",
+     "baseForm": "やばい",
+     "baseReading": "やばい",
+     "partOfSpeech": "形容詞,自立,*,*",
+     "posLabel": "i-adjective",
+     "furigana": [
+      {
+       "text": "やばい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "yabai",
+     "jmdictEntryId": 1012840,
+     "glosses": [
+      {
+       "entryId": 1012840,
+       "pos": "adj-i",
+       "misc": "col",
+       "text": "dangerous; risky",
+       "common": true
+      },
+      {
+       "entryId": 1012840,
+       "pos": "adj-i",
+       "misc": "sl",
+       "text": "awful; terrible; crap",
+       "common": true
+      },
+      {
+       "entryId": 1012840,
+       "pos": "adj-i",
+       "misc": "sl",
+       "text": "terrific; amazing; cool",
+       "common": true
+      },
+      {
+       "entryId": 1012840,
+       "pos": "adj-i",
+       "misc": "sl",
+       "text": "crazy; insane; not normal; unhinged; extreme",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 7,
+     "surface": "ね",
+     "reading": "ね",
+     "baseForm": "ね",
+     "baseReading": "ね",
+     "partOfSpeech": "助詞,終助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "ね",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ne",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 8,
+     "surface": "これ",
+     "reading": "これ",
+     "baseForm": "これ",
+     "baseReading": "これ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "これ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kore",
+     "jmdictEntryId": 1628530,
+     "glosses": [
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "this; this one",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "this person",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "now; this point (in time)",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "dated,uk",
+       "text": "here",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "arch",
+       "text": "I; me",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 4,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "そっちから煙見える？",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "そっち",
+     "reading": "そっち",
+     "baseForm": "そっち",
+     "baseReading": "そっち",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "そっち",
+       "ruby": ""
+      }
+     ],
+     "romaji": "sotchi",
+     "jmdictEntryId": 1006780,
+     "glosses": [
+      {
+       "entryId": 1006780,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that way; that direction",
+       "common": true
+      },
+      {
+       "entryId": 1006780,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "there",
+       "common": true
+      },
+      {
+       "entryId": 1006780,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that (one)",
+       "common": true
+      },
+      {
+       "entryId": 1006780,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "you; your family; your company",
+       "common": true
+      },
+      {
+       "entryId": 1006780,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that person",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "から",
+     "reading": "から",
+     "baseForm": "から",
+     "baseReading": "から",
+     "partOfSpeech": "助詞,格助詞,一般,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "から",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kara",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "煙",
+     "reading": "けむり",
+     "baseForm": "煙",
+     "baseReading": "けむり",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "煙",
+       "ruby": "けむり"
+      }
+     ],
+     "romaji": "kemuri",
+     "jmdictEntryId": 1177180,
+     "glosses": [
+      {
+       "entryId": 1177180,
+       "pos": "n",
+       "misc": "",
+       "text": "smoke; fumes",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "見える",
+     "reading": "みえる",
+     "baseForm": "見える",
+     "baseReading": "みえる",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "見",
+       "ruby": "み"
+      },
+      {
+       "text": "える",
+       "ruby": ""
+      }
+     ],
+     "romaji": "mieru",
+     "jmdictEntryId": 1259140,
+     "glosses": [
+      {
+       "entryId": 1259140,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to be seen; to be visible; to be in sight",
+       "common": true
+      },
+      {
+       "entryId": 1259140,
+       "pos": "v1,vi",
+       "misc": "",
+       "text": "to look; to seem; to appear",
+       "common": true
+      },
+      {
+       "entryId": 1259140,
+       "pos": "v1,vi",
+       "misc": "hon",
+       "text": "to come",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "？",
+     "reading": "？",
+     "baseForm": "？",
+     "baseReading": "？",
+     "partOfSpeech": "記号,一般,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "？",
+       "ruby": ""
+      }
+     ],
+     "romaji": "？",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 8,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "そう",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "そう",
+     "reading": "そう",
+     "baseForm": "そう",
+     "baseReading": "そう",
+     "partOfSpeech": "副詞,助詞類接続,*,*",
+     "posLabel": "adverb",
+     "furigana": [
+      {
+       "text": "そう",
+       "ruby": ""
+      }
+     ],
+     "romaji": "sou",
+     "jmdictEntryId": 2137720,
+     "glosses": [
+      {
+       "entryId": 2137720,
+       "pos": "adv",
+       "misc": "uk",
+       "text": "in that way; thus; such",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 5,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "合流地点変えていい？",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "合流",
+     "reading": "ごうりゅう",
+     "baseForm": "合流",
+     "baseReading": "ごうりゅう",
+     "partOfSpeech": "名詞,サ変接続,*,*",
+     "posLabel": "noun (suru-verb)",
+     "furigana": [
+      {
+       "text": "合流",
+       "ruby": "ごうりゅう"
+      }
+     ],
+     "romaji": "gouryuu",
+     "jmdictEntryId": 1285390,
+     "glosses": [
+      {
+       "entryId": 1285390,
+       "pos": "n,vs,vi",
+       "misc": "",
+       "text": "confluence (of rivers); flowing together; joining",
+       "common": true
+      },
+      {
+       "entryId": 1285390,
+       "pos": "n,vs,vi",
+       "misc": "",
+       "text": "joining (of people, groups, parties, etc.); union; linking up; merging (e.g. of traffic); meeting (up)",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "地点",
+     "reading": "ちてん",
+     "baseForm": "地点",
+     "baseReading": "ちてん",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "地点",
+       "ruby": "ちてん"
+      }
+     ],
+     "romaji": "chiten",
+     "jmdictEntryId": 1421380,
+     "glosses": [
+      {
+       "entryId": 1421380,
+       "pos": "n",
+       "misc": "",
+       "text": "spot; point; place; position",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "変え",
+     "reading": "かえ",
+     "baseForm": "変える",
+     "baseReading": "かえる",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "変",
+       "ruby": "か"
+      },
+      {
+       "text": "え",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kae",
+     "jmdictEntryId": 1510650,
+     "glosses": [
+      {
+       "entryId": 1510650,
+       "pos": "v1,vt",
+       "misc": "",
+       "text": "to change; to alter; to transform; to convert; to turn; to vary",
+       "common": true
+      },
+      {
+       "entryId": 1510650,
+       "pos": "v1,vt",
+       "misc": "",
+       "text": "to reform; to revise; to amend",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "て",
+     "reading": "て",
+     "baseForm": "て",
+     "baseReading": "て",
+     "partOfSpeech": "助詞,接続助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "て",
+       "ruby": ""
+      }
+     ],
+     "romaji": "te",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "いい",
+     "reading": "いい",
+     "baseForm": "いい",
+     "baseReading": "いい",
+     "partOfSpeech": "形容詞,非自立,*,*",
+     "posLabel": "i-adjective (dependent)",
+     "furigana": [
+      {
+       "text": "いい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ii",
+     "jmdictEntryId": 2820690,
+     "glosses": [
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "good; excellent; fine; nice; pleasant; agreeable",
+       "common": true
+      },
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "sufficient; enough; ready; prepared",
+       "common": true
+      },
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "profitable (deal, business offer, etc.); beneficial",
+       "common": true
+      },
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "OK; all right; fine; no problem",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "？",
+     "reading": "？",
+     "baseForm": "？",
+     "baseReading": "？",
+     "partOfSpeech": "記号,一般,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "？",
+       "ruby": ""
+      }
+     ],
+     "romaji": "？",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 9,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "うん",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "うん",
+     "reading": "うん",
+     "baseForm": "うん",
+     "baseReading": "うん",
+     "partOfSpeech": "感動詞,*,*,*",
+     "posLabel": "interjection",
+     "furigana": [
+      {
+       "text": "うん",
+       "ruby": ""
+      }
+     ],
+     "romaji": "un",
+     "jmdictEntryId": 1001090,
+     "glosses": [
+      {
+       "entryId": 1001090,
+       "pos": "int",
+       "misc": "",
+       "text": "yes; yeah; uh huh",
+       "common": true
+      },
+      {
+       "entryId": 1001090,
+       "pos": "int",
+       "misc": "",
+       "text": "hum; hmmm; well; erm; huh?",
+       "common": true
+      },
+      {
+       "entryId": 1001090,
+       "pos": "int",
+       "misc": "",
+       "text": "oof",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 3,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "たぶんこれ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "たぶん",
+     "reading": "たぶん",
+     "baseForm": "たぶん",
+     "baseReading": "たぶん",
+     "partOfSpeech": "副詞,一般,*,*",
+     "posLabel": "adverb",
+     "furigana": [
+      {
+       "text": "たぶん",
+       "ruby": ""
+      }
+     ],
+     "romaji": "tabun",
+     "jmdictEntryId": 1407980,
+     "glosses": [
+      {
+       "entryId": 1407980,
+       "pos": "adv",
+       "misc": "",
+       "text": "probably; likely; perhaps; maybe",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "これ",
+     "reading": "これ",
+     "baseForm": "これ",
+     "baseReading": "これ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "これ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "kore",
+     "jmdictEntryId": 1628530,
+     "glosses": [
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "this; this one",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "this person",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "now; this point (in time)",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "dated,uk",
+       "text": "here",
+       "common": true
+      },
+      {
+       "entryId": 1628530,
+       "pos": "pn",
+       "misc": "arch",
+       "text": "I; me",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_3_2026-08-22_14-04-32",
+   "region": 7,
+   "pageKind": "INTERIOR",
+   "regionKind": "TEXT_BUBBLE",
+   "text": "アサが来た",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "アサ",
+     "reading": "あさ",
+     "baseForm": "アサ",
+     "baseReading": "あさ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "アサ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "asa",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "が",
+     "reading": "が",
+     "baseForm": "が",
+     "baseReading": "が",
+     "partOfSpeech": "助詞,格助詞,一般,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "が",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ga",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "来",
+     "reading": "き",
+     "baseForm": "来る",
+     "baseReading": "くる",
+     "partOfSpeech": "動詞,自立,*,*",
+     "posLabel": "verb",
+     "furigana": [
+      {
+       "text": "来",
+       "ruby": "き"
+      }
+     ],
+     "romaji": "ki",
+     "jmdictEntryId": 1547720,
+     "glosses": [
+      {
+       "entryId": 1547720,
+       "pos": "vk,vi",
+       "misc": "",
+       "text": "to come (spatially or temporally); to approach; to arrive",
+       "common": true
+      },
+      {
+       "entryId": 1547720,
+       "pos": "vk,vi,aux-v",
+       "misc": "uk",
+       "text": "to come back; to do ... and come back",
+       "common": true
+      },
+      {
+       "entryId": 1547720,
+       "pos": "vk,vi,aux-v",
+       "misc": "uk",
+       "text": "to come to be; to become; to get; to grow; to continue",
+       "common": true
+      },
+      {
+       "entryId": 1547720,
+       "pos": "vk,vi",
+       "misc": "",
+       "text": "to come from; to be caused by; to derive from",
+       "common": true
+      },
+      {
+       "entryId": 1547720,
+       "pos": "vk,vi",
+       "misc": "",
+       "text": "to come to (e.g. \"when it comes to spinach ...\")",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "た",
+     "reading": "た",
+     "baseForm": "た",
+     "baseReading": "た",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "た",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ta",
+     "jmdictEntryId": 2654250,
+     "glosses": [
+      {
+       "entryId": 2654250,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "did; (have) done",
+       "common": false
+      },
+      {
+       "entryId": 2654250,
+       "pos": "aux-v",
+       "misc": "",
+       "text": "(please) do",
+       "common": false
+      }
+     ],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 6,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "あれだけの",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "あれ",
+     "reading": "あれ",
+     "baseForm": "あれ",
+     "baseReading": "あれ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "あれ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "are",
+     "jmdictEntryId": 1000580,
+     "glosses": [
+      {
+       "entryId": 1000580,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that; that thing",
+       "common": true
+      },
+      {
+       "entryId": 1000580,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that person",
+       "common": true
+      },
+      {
+       "entryId": 1000580,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "then; that time",
+       "common": true
+      },
+      {
+       "entryId": 1000580,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that place (over there)",
+       "common": true
+      },
+      {
+       "entryId": 1000580,
+       "pos": "n",
+       "misc": "col,euph,uk",
+       "text": "down there (i.e. one's genitals)",
+       "common": true
+      },
+      {
+       "entryId": 1000580,
+       "pos": "n",
+       "misc": "col,euph,uk",
+       "text": "period; menses",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "だけ",
+     "reading": "だけ",
+     "baseForm": "だけ",
+     "baseReading": "だけ",
+     "partOfSpeech": "助詞,副助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "だけ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "dake",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 4,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "Ｙａｏｏ！！ａｎｓｉｏ．ｉＰｓｉｏｎ",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "Ｙａｏｏ",
+     "reading": "",
+     "baseForm": "Ｙａｏｏ",
+     "baseReading": "",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "Ｙａｏｏ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "！",
+     "reading": "！",
+     "baseForm": "！",
+     "baseReading": "！",
+     "partOfSpeech": "記号,一般,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "！",
+       "ruby": ""
+      }
+     ],
+     "romaji": "！",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "！",
+     "reading": "！",
+     "baseForm": "！",
+     "baseReading": "！",
+     "partOfSpeech": "記号,一般,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "！",
+       "ruby": ""
+      }
+     ],
+     "romaji": "！",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "ａｎｓｉｏ",
+     "reading": "",
+     "baseForm": "ａｎｓｉｏ",
+     "baseReading": "",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "ａｎｓｉｏ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 5,
+     "surface": "ｉＰｓｉｏｎ",
+     "reading": "",
+     "baseForm": "ｉＰｓｉｏｎ",
+     "baseReading": "",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ｉＰｓｉｏｎ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 7,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "．．．",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 1,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "「第四条館の豊富で、なら、それを",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "「",
+     "reading": "「",
+     "baseForm": "「",
+     "baseReading": "「",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "「",
+       "ruby": ""
+      }
+     ],
+     "romaji": "「",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "第",
+     "reading": "だい",
+     "baseForm": "第",
+     "baseReading": "だい",
+     "partOfSpeech": "接頭詞,数接続,*,*",
+     "posLabel": "prefix",
+     "furigana": [
+      {
+       "text": "第",
+       "ruby": "だい"
+      }
+     ],
+     "romaji": "dai",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "四",
+     "reading": "よん",
+     "baseForm": "四",
+     "baseReading": "よん",
+     "partOfSpeech": "名詞,数,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "四",
+       "ruby": "よん"
+      }
+     ],
+     "romaji": "yon",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 3,
+     "surface": "条",
+     "reading": "じょう",
+     "baseForm": "条",
+     "baseReading": "じょう",
+     "partOfSpeech": "名詞,接尾,助数詞,*",
+     "posLabel": "noun (suffix)",
+     "furigana": [
+      {
+       "text": "条",
+       "ruby": "じょう"
+      }
+     ],
+     "romaji": "jou",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    },
+    {
+     "position": 4,
+     "surface": "館",
+     "reading": "かん",
+     "baseForm": "館",
+     "baseReading": "かん",
+     "partOfSpeech": "名詞,接尾,一般,*",
+     "posLabel": "noun (suffix)",
+     "furigana": [
+      {
+       "text": "館",
+       "ruby": "かん"
+      }
+     ],
+     "romaji": "kan",
+     "jmdictEntryId": 1929870,
+     "glosses": [
+      {
+       "entryId": 1929870,
+       "pos": "n,n-suf",
+       "misc": "",
+       "text": "(large) building; public building; hall",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 5,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 6,
+     "surface": "豊富",
+     "reading": "ほうふ",
+     "baseForm": "豊富",
+     "baseReading": "ほうふ",
+     "partOfSpeech": "名詞,形容動詞語幹,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "豊富",
+       "ruby": "ほうふ"
+      }
+     ],
+     "romaji": "houfu",
+     "jmdictEntryId": 1518180,
+     "glosses": [
+      {
+       "entryId": 1518180,
+       "pos": "adj-na,n",
+       "misc": "",
+       "text": "abundant; plentiful; rich; ample",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 7,
+     "surface": "で",
+     "reading": "で",
+     "baseForm": "だ",
+     "baseReading": "だ",
+     "partOfSpeech": "助動詞,*,*,*",
+     "posLabel": "auxiliary",
+     "furigana": [
+      {
+       "text": "で",
+       "ruby": ""
+      }
+     ],
+     "romaji": "de",
+     "jmdictEntryId": 2089020,
+     "glosses": [
+      {
+       "entryId": 2089020,
+       "pos": "aux-v,cop",
+       "misc": "",
+       "text": "be; is",
+       "common": true
+      }
+     ],
+     "isContentWord": false
+    },
+    {
+     "position": 8,
+     "surface": "、",
+     "reading": "、",
+     "baseForm": "、",
+     "baseReading": "、",
+     "partOfSpeech": "記号,読点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "、",
+       "ruby": ""
+      }
+     ],
+     "romaji": "、",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 9,
+     "surface": "なら",
+     "reading": "なら",
+     "baseForm": "なら",
+     "baseReading": "なら",
+     "partOfSpeech": "接続詞,*,*,*",
+     "posLabel": "conjunction",
+     "furigana": [
+      {
+       "text": "なら",
+       "ruby": ""
+      }
+     ],
+     "romaji": "nara",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 10,
+     "surface": "、",
+     "reading": "、",
+     "baseForm": "、",
+     "baseReading": "、",
+     "partOfSpeech": "記号,読点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "、",
+       "ruby": ""
+      }
+     ],
+     "romaji": "、",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 11,
+     "surface": "それ",
+     "reading": "それ",
+     "baseForm": "それ",
+     "baseReading": "それ",
+     "partOfSpeech": "名詞,代名詞,一般,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "それ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "sore",
+     "jmdictEntryId": 1006970,
+     "glosses": [
+      {
+       "entryId": 1006970,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "that; it",
+       "common": true
+      },
+      {
+       "entryId": 1006970,
+       "pos": "pn",
+       "misc": "uk",
+       "text": "then; that point (in time); that time",
+       "common": true
+      },
+      {
+       "entryId": 1006970,
+       "pos": "pn",
+       "misc": "arch",
+       "text": "there",
+       "common": true
+      },
+      {
+       "entryId": 1006970,
+       "pos": "pn",
+       "misc": "arch",
+       "text": "you",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 12,
+     "surface": "を",
+     "reading": "を",
+     "baseForm": "を",
+     "baseReading": "を",
+     "partOfSpeech": "助詞,格助詞,一般,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "を",
+       "ruby": ""
+      }
+     ],
+     "romaji": "o",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 5,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "．．．．．．",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 4,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 5,
+     "surface": "．",
+     "reading": "．",
+     "baseForm": "．",
+     "baseReading": "．",
+     "partOfSpeech": "記号,句点,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "．",
+       "ruby": ""
+      }
+     ],
+     "romaji": "．",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 2,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "紫計",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "紫",
+     "reading": "むらさき",
+     "baseForm": "紫",
+     "baseReading": "むらさき",
+     "partOfSpeech": "名詞,固有名詞,人名,姓",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "紫",
+       "ruby": "むらさき"
+      }
+     ],
+     "romaji": "murasaki",
+     "jmdictEntryId": 1311640,
+     "glosses": [
+      {
+       "entryId": 1311640,
+       "pos": "n,adj-no",
+       "misc": "",
+       "text": "purple; violet",
+       "common": true
+      },
+      {
+       "entryId": 1311640,
+       "pos": "n",
+       "misc": "uk",
+       "text": "purple gromwell (Lithospermum erythrorhizon); red gromwell; red-root gromwell",
+       "common": true
+      },
+      {
+       "entryId": 1311640,
+       "pos": "n",
+       "misc": "",
+       "text": "soy sauce",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "計",
+     "reading": "はかる",
+     "baseForm": "計",
+     "baseReading": "けい",
+     "partOfSpeech": "名詞,固有名詞,人名,名",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "計",
+       "ruby": "はかる"
+      }
+     ],
+     "romaji": "hakaru",
+     "jmdictEntryId": 1252050,
+     "glosses": [
+      {
+       "entryId": 1252050,
+       "pos": "n,n-suf",
+       "misc": "",
+       "text": "plan",
+       "common": true
+      },
+      {
+       "entryId": 1252050,
+       "pos": "n,n-suf",
+       "misc": "",
+       "text": "meter; measuring device",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 3,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "一般的には",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "一般",
+     "reading": "いっぱん",
+     "baseForm": "一般",
+     "baseReading": "いっぱん",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "一般",
+       "ruby": "いっぱん"
+      }
+     ],
+     "romaji": "ippan",
+     "jmdictEntryId": 1165790,
+     "glosses": [
+      {
+       "entryId": 1165790,
+       "pos": "adj-no,n",
+       "misc": "",
+       "text": "general; universal",
+       "common": true
+      },
+      {
+       "entryId": 1165790,
+       "pos": "adj-no,n",
+       "misc": "",
+       "text": "ordinary; average; common; non-celebrity",
+       "common": true
+      },
+      {
+       "entryId": 1165790,
+       "pos": "adj-no,n",
+       "misc": "arch",
+       "text": "the same; no different; (just) as if",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "的",
+     "reading": "てき",
+     "baseForm": "的",
+     "baseReading": "てき",
+     "partOfSpeech": "名詞,接尾,形容動詞語幹,*",
+     "posLabel": "noun (suffix)",
+     "furigana": [
+      {
+       "text": "的",
+       "ruby": "てき"
+      }
+     ],
+     "romaji": "teki",
+     "jmdictEntryId": 1437260,
+     "glosses": [
+      {
+       "entryId": 1437260,
+       "pos": "suf,adj-na",
+       "misc": "",
+       "text": "-ical; -ive; -al; -ic; -y",
+       "common": true
+      },
+      {
+       "entryId": 1437260,
+       "pos": "suf,adj-na",
+       "misc": "",
+       "text": "-like; -ish; -sort of; -kind of",
+       "common": true
+      },
+      {
+       "entryId": 1437260,
+       "pos": "suf,adj-na",
+       "misc": "col",
+       "text": "(something) like; along the lines of",
+       "common": true
+      },
+      {
+       "entryId": 1437260,
+       "pos": "suf,adj-na",
+       "misc": "col",
+       "text": "-wise; in terms of; for; from the viewpoint of; from a ... standpoint; as far as ... is concerned",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 2,
+     "surface": "に",
+     "reading": "に",
+     "baseForm": "に",
+     "baseReading": "に",
+     "partOfSpeech": "助詞,格助詞,一般,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "に",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ni",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 3,
+     "surface": "は",
+     "reading": "は",
+     "baseForm": "は",
+     "baseReading": "は",
+     "partOfSpeech": "助詞,係助詞,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "は",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ha",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    }
+   ]
+  },
+  {
+   "page": "photo_4_2026-08-22_14-04-32",
+   "region": 8,
+   "pageKind": "COVER",
+   "regionKind": "TEXT_FREE",
+   "text": "『いい",
+   "route": "tokens",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "『",
+     "reading": "『",
+     "baseForm": "『",
+     "baseReading": "『",
+     "partOfSpeech": "記号,括弧開,*,*",
+     "posLabel": "symbol",
+     "furigana": [
+      {
+       "text": "『",
+       "ruby": ""
+      }
+     ],
+     "romaji": "『",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 1,
+     "surface": "いい",
+     "reading": "いい",
+     "baseForm": "いい",
+     "baseReading": "いい",
+     "partOfSpeech": "形容詞,自立,*,*",
+     "posLabel": "i-adjective",
+     "furigana": [
+      {
+       "text": "いい",
+       "ruby": ""
+      }
+     ],
+     "romaji": "ii",
+     "jmdictEntryId": 2820690,
+     "glosses": [
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "good; excellent; fine; nice; pleasant; agreeable",
+       "common": true
+      },
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "sufficient; enough; ready; prepared",
+       "common": true
+      },
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "profitable (deal, business offer, etc.); beneficial",
+       "common": true
+      },
+      {
+       "entryId": 2820690,
+       "pos": "adj-ix",
+       "misc": "",
+       "text": "OK; all right; fine; no problem",
+       "common": true
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  }
+ ],
+ "classification": [
+  {
+   "text": "勝たなきゃ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "contains kanji"
+   ]
+  },
+  {
+   "text": "勝たなきゃダメだ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "contains kanji"
+   ]
+  },
+  {
+   "text": "僕はダメ犬じゃない",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "contains kanji"
+   ]
+  },
+  {
+   "text": "僕はやってないよお父さん",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "contains kanji"
+   ]
+  },
+  {
+   "text": "おはようございます",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": -6.0,
+   "reasons": [
+    "predicate auxiliary (-3)",
+    "long (-2)",
+    "mostly hiragana (-2)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "黄泉のツガイロ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "contains kanji"
+   ]
+  },
+  {
+   "text": "ざわざわしてきた",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "inflected 動詞: し"
+   ]
+  },
+  {
+   "text": "どきどきするなあ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "inflected 動詞: する"
+   ]
+  },
+  {
+   "text": "ぱちぱち手を叩く",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "contains kanji"
+   ]
+  },
+  {
+   "text": "ん？",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": 0.0,
+   "reasons": [
+    "mostly hiragana (-2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "あ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": 0.0,
+   "reasons": [
+    "mostly hiragana (-2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "そう",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": 2.0,
+   "reasons": [
+    "mostly hiragana (-2)",
+    "no content words (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "うん",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": 2.0,
+   "reasons": [
+    "mostly hiragana (-2)",
+    "no content words (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "＠＠＠",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "no kana"
+   ]
+  },
+  {
+   "text": "ドン",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 10.0,
+   "reasons": [
+    "glossary normalized (+4)",
+    "all katakana (+2)",
+    "no content words (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "ハッ…",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 6.0,
+   "reasons": [
+    "all katakana (+2)",
+    "no content words (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "ドキドキ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 10.0,
+   "reasons": [
+    "glossary exact (+4)",
+    "repeated morae (+2)",
+    "all katakana (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "ゴゴゴゴゴゴ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 11.0,
+   "reasons": [
+    "glossary repeat (+4)",
+    "repeated morae (+2)",
+    "all katakana (+2)",
+    "no content words (+2)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "ザザザ…",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 4.0,
+   "reasons": [
+    "all katakana (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "パカ",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 10.0,
+   "reasons": [
+    "glossary exact (+4)",
+    "all katakana (+2)",
+    "no content words (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "ドドドド",
+   "inBubble": false,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 8.0,
+   "reasons": [
+    "repeated morae (+2)",
+    "all katakana (+2)",
+    "no content words (+2)",
+    "short (+1)",
+    "not in a bubble (+1)"
+   ]
+  },
+  {
+   "text": "ドキドキ",
+   "inBubble": true,
+   "pageKind": "INTERIOR",
+   "isSfx": true,
+   "score": 8.0,
+   "reasons": [
+    "inside a bubble (-1)",
+    "glossary exact (+4)",
+    "repeated morae (+2)",
+    "all katakana (+2)",
+    "short (+1)"
+   ]
+  },
+  {
+   "text": "ビースターズ",
+   "inBubble": false,
+   "pageKind": "COVER",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "cover page"
+   ]
+  },
+  {
+   "text": "ドキドキ",
+   "inBubble": false,
+   "pageKind": "COVER",
+   "isSfx": false,
+   "score": null,
+   "reasons": [
+    "cover page"
+   ]
+  }
+ ],
+ "sfx_probes": [
+  {
+   "text": "ドキドキ",
+   "sfx": {
+    "text": "ドキドキ",
+    "reading": "どきどき",
+    "kind": "gijougo",
+    "gloss": "pounding heartbeat; nervousness or excitement",
+    "match": "exact"
+   }
+  },
+  {
+   "text": "どきどき",
+   "sfx": {
+    "text": "ドキドキ",
+    "reading": "どきどき",
+    "kind": "gijougo",
+    "gloss": "pounding heartbeat; nervousness or excitement",
+    "match": "normalized"
+   }
+  },
+  {
+   "text": "ドキドキーッ",
+   "sfx": {
+    "text": "ドキドキ",
+    "reading": "どきどき",
+    "kind": "gijougo",
+    "gloss": "pounding heartbeat; nervousness or excitement",
+    "match": "normalized"
+   }
+  },
+  {
+   "text": "パカ",
+   "sfx": {
+    "text": "パカ",
+    "reading": "ぱか",
+    "kind": "giongo",
+    "gloss": "a hinged thing flipping open, e.g. a flip phone",
+    "match": "exact"
+   }
+  },
+  {
+   "text": "ゴゴゴゴゴゴ",
+   "sfx": {
+    "text": "ゴゴゴ",
+    "reading": "ごごご",
+    "kind": "gitaigo",
+    "gloss": "an ominous rumbling; menace building",
+    "match": "repeat"
+   }
+  },
+  {
+   "text": "ザザザ…",
+   "sfx": {
+    "text": "ザーザー",
+    "reading": "ざーざー",
+    "kind": "giongo",
+    "gloss": "heavy, pouring rain",
+    "match": "prefix"
+   }
+  },
+  {
+   "text": "＠＠＠",
+   "sfx": null
+  }
+ ],
+ "reading_probes": [
+  {
+   "text": "ヴァルキュリア",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "ヴァルキュリア",
+     "reading": "ゔぁるきゅりあ",
+     "baseForm": "ヴァルキュリア",
+     "baseReading": "ゔぁるきゅりあ",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ヴァルキュリア",
+       "ruby": ""
+      }
+     ],
+     "romaji": "varukyuria",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "ギュルルル",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "ギュルルル",
+     "reading": "ぎゅるるる",
+     "baseForm": "ギュルルル",
+     "baseReading": "ぎゅるるる",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ギュルルル",
+       "ruby": ""
+      }
+     ],
+     "romaji": "gyurururu",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "ズギャアアン",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "ズギャアアン",
+     "reading": "ずぎゃああん",
+     "baseForm": "ズギャアアン",
+     "baseReading": "ずぎゃああん",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ズギャアアン",
+       "ruby": ""
+      }
+     ],
+     "romaji": "zugyaaan",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "ﾄﾞｷﾄﾞｷ",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "ﾄﾞｷﾄﾞｷ",
+     "reading": "どきどき",
+     "baseForm": "ﾄﾞｷﾄﾞｷ",
+     "baseReading": "どきどき",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ﾄﾞｷﾄﾞｷ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "dokidoki",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "ぎゅるるる",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "ぎゅるるる",
+     "reading": "ぎゅるるる",
+     "baseForm": "ぎゅるるる",
+     "baseReading": "ぎゅるるる",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "ぎゅるるる",
+       "ruby": ""
+      }
+     ],
+     "romaji": "gyurururu",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "黄泉のツガイ",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "黄泉",
+     "reading": "よみ",
+     "baseForm": "黄泉",
+     "baseReading": "よみ",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "黄泉",
+       "ruby": "よみ"
+      }
+     ],
+     "romaji": "yomi",
+     "jmdictEntryId": 1182110,
+     "glosses": [
+      {
+       "entryId": 1182110,
+       "pos": "n",
+       "misc": "",
+       "text": "Hades; hell; underworld",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    },
+    {
+     "position": 1,
+     "surface": "の",
+     "reading": "の",
+     "baseForm": "の",
+     "baseReading": "の",
+     "partOfSpeech": "助詞,連体化,*,*",
+     "posLabel": "particle",
+     "furigana": [
+      {
+       "text": "の",
+       "ruby": ""
+      }
+     ],
+     "romaji": "no",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": false
+    },
+    {
+     "position": 2,
+     "surface": "ツガイ",
+     "reading": "つがい",
+     "baseForm": "ツガイ",
+     "baseReading": "つがい",
+     "partOfSpeech": "名詞,一般,*,*",
+     "posLabel": "noun",
+     "furigana": [
+      {
+       "text": "ツガイ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "tsugai",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "逞",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "逞",
+     "reading": "",
+     "baseForm": "逞",
+     "baseReading": "",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "逞",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": null,
+     "glosses": [],
+     "isContentWord": true
+    }
+   ]
+  },
+  {
+   "text": "ＵＭＡ",
+   "tokens": [
+    {
+     "position": 0,
+     "surface": "ＵＭＡ",
+     "reading": "",
+     "baseForm": "ＵＭＡ",
+     "baseReading": "ユーマ",
+     "partOfSpeech": "名詞,固有名詞,組織,*",
+     "posLabel": "proper noun",
+     "furigana": [
+      {
+       "text": "ＵＭＡ",
+       "ruby": ""
+      }
+     ],
+     "romaji": "",
+     "jmdictEntryId": 2216470,
+     "glosses": [
+      {
+       "entryId": 2216470,
+       "pos": "n",
+       "misc": "",
+       "text": "cryptid (animal whose existence is unsubstantiated, e.g. the yeti)",
+       "common": false
+      }
+     ],
+     "isContentWord": true
+    }
+   ]
+  }
+ ]
+}

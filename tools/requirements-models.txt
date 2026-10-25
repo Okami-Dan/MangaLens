@@ -1,0 +1,8 @@
+# Optional maintenance environment; normal setup uses only Python's standard library.
+# Record exact installed versions when publishing a new model export.
+numpy>=1.26
+torch>=2.2
+transformers>=4.40,<5
+onnx>=1.16
+onnxruntime>=1.17
+onnxconverter-common>=1.14

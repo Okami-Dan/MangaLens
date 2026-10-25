@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Section 5 tier 2 lets the user point the app at "a self-hosted vLLM or llama.cpp
+  server". Since targetSdk 28, Android refuses cleartext HTTP unless it is allowed here,
+  and a self-hosted endpoint is very often plain http.
+
+  The policy: HTTPS everywhere, except the loopback address.
+
+  Loopback is permitted because it cannot leave the device. It is either an on-device
+  server, or a desktop reachable through "adb reverse", which is how the tier-2 path is
+  tested without an account (see tools/mock_openai.py).
+
+  A server on the local network over plain http is NOT permitted, and that is a deliberate
+  choice rather than an oversight: the request carries the page's recognized text and the
+  Authorization header carries the user's key, and neither should cross a network in the
+  clear merely because a configuration field made it easy to.
+
+  If reaching a LAN server becomes a requirement, the answer is a TLS endpoint or a tunnel
+  to loopback, not opening this up.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="false">127.0.0.1</domain>
+    </domain-config>
+</network-security-config>

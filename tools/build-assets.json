@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "base_url": "https://github.com/Okami-Dan/MangaLens/releases/download/build-assets-v1",
+  "assets": [
+    {
+      "path": "var/assets/jmdict-mobile.sqlite",
+      "file": "jmdict-mobile.sqlite",
+      "bytes": 54292480,
+      "sha256": "9d205ba130ed7ed2df3d27181e7a7c36f3e2cd0785fc67a5612e59a171be5a9f"
+    },
+    {
+      "path": "var/models/manga-ocr-onnx-int8/encoder.onnx",
+      "file": "encoder.onnx",
+      "bytes": 87063458,
+      "sha256": "673b48044efdb8943bfdb2db748882acee025e30df5c888600ebceedf4dd3ddb"
+    },
+    {
+      "path": "var/models/manga-ocr-onnx-int8/decoder.onnx",
+      "file": "decoder.onnx",
+      "bytes": 29650985,
+      "sha256": "e06a1576620f00875e44dc13d6e7c2375120a2729278e066adf9b7c223ea12c9"
+    },
+    {
+      "path": "var/assets/mecab-ipadic-2.7.0-20070801.tar.gz",
+      "file": "mecab-ipadic-2.7.0-20070801.tar.gz",
+      "bytes": 12208105,
+      "sha256": "b62f527d881c504576baed9c6ef6561554658b175ce6ae0096a60307e49e3523"
+    }
+  ]
+}

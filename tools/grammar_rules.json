@@ -1,0 +1,2844 @@
+{
+  "meta": {
+    "version": 1,
+    "about": "Grammar patterns for section 3.3 tier 4, matched over Kuromoji/janome IPADIC tokens. Read by :ml:analysis (GrammarRules.kt) and staged into the APK's assets alongside sfx_dict.json.",
+    "attribution": "JLPT levels follow the lists at tanos.co.uk, CC BY, Jonathan Waller. Explanations are written for this app.",
+    "schema": "A match element may constrain surface / base / reading / pos / posNot / cform / ctype. pos and cform are PREFIX matches against the comma-joined IPADIC tag string and the conjugation form. 'after' and 'before' constrain the neighbouring token without consuming it. 'atEnd' requires the match to end on the region's last token. Longest match wins at each position; matches do not overlap; the scan runs left to right. Explanations may interpolate {prev} {prevBase} {base} {text}. Matches and neighbour constraints do not cross sentence-ending punctuation.",
+    "caution": "These patterns are written against real IPADIC output, not against intuition. IPADIC is full of surprises: によって is ONE token, なきゃ is one token based on ない, たら bases to た, なら bases to だ, and the imperative appears only in the conjugation form (命令ｅ / 命令ｒｏ / 命令ｉ, with full-width latin). Verify any new rule with tools/check_grammar_rules.py before trusting it.",
+    "references": [
+      "https://central.sonatype.com/artifact/com.atilika.kuromoji/kuromoji-ipadic/0.9.0",
+      "https://guidetojapanese.org/learn/complete/causative_passive",
+      "https://www.guidetojapanese.org/enduring.html",
+      "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project"
+    ]
+  },
+  "register": [
+    {
+      "level": "HONORIFIC",
+      "note": "Honorific verbs (尊敬語). The speaker is raising the person they are talking about.",
+      "match": [
+        {
+          "base": "いらっしゃる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HONORIFIC",
+      "note": "Honorific verbs (尊敬語). The speaker is raising the person they are talking about.",
+      "match": [
+        {
+          "base": "おっしゃる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HONORIFIC",
+      "note": "Honorific verbs (尊敬語). The speaker is raising the person they are talking about.",
+      "match": [
+        {
+          "base": "なさる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HONORIFIC",
+      "note": "Honorific verbs (尊敬語). The speaker is raising the person they are talking about.",
+      "match": [
+        {
+          "base": "くださる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HONORIFIC",
+      "note": "Honorific verbs (尊敬語). The speaker is raising the person they are talking about.",
+      "match": [
+        {
+          "base": "召し上がる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "致す",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "申す",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "申し上げる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "伺う",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "うかがう",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "いただく",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "HUMBLE",
+      "note": "Humble verbs (謙譲語). The speaker is lowering themselves, which raises the listener.",
+      "match": [
+        {
+          "base": "頂く",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "level": "POLITE",
+      "note": "The です／ます form (丁寧語). Standard politeness toward the listener.",
+      "match": [
+        {
+          "base": "ます",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "POLITE",
+      "note": "The です／ます form (丁寧語). Standard politeness toward the listener.",
+      "match": [
+        {
+          "base": "です",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "ARCHAIC",
+      "note": "Classical or theatrical forms. Old-fashioned on purpose.",
+      "match": [
+        {
+          "base": "ござる",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "ARCHAIC",
+      "note": "Classical or theatrical forms. Old-fashioned on purpose.",
+      "match": [
+        {
+          "base": "ぬ",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "ARCHAIC",
+      "note": "Classical or theatrical forms. Old-fashioned on purpose.",
+      "match": [
+        {
+          "surface": "なり",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "ARCHAIC",
+      "note": "Classical or theatrical forms. Old-fashioned on purpose.",
+      "match": [
+        {
+          "base": "なる",
+          "pos": "動詞"
+        }
+      ],
+      "after": {
+        "pos": "名詞"
+      },
+      "before": {
+        "pos": "名詞,非自立"
+      }
+    },
+    {
+      "level": "ROUGH",
+      "note": "Blunt or aggressive speech. Commands, and the particles that go with them.",
+      "match": [
+        {
+          "pos": "動詞",
+          "cform": "命令"
+        }
+      ]
+    },
+    {
+      "level": "ROUGH",
+      "note": "Blunt or aggressive speech. Commands, and the particles that go with them.",
+      "match": [
+        {
+          "base": "ぜ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "level": "ROUGH",
+      "note": "Blunt or aggressive speech. Commands, and the particles that go with them.",
+      "match": [
+        {
+          "base": "ぞ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "level": "ROUGH",
+      "note": "Blunt or aggressive speech. Commands, and the particles that go with them.",
+      "match": [
+        {
+          "base": "がる",
+          "pos": "動詞,接尾"
+        }
+      ],
+      "after": {
+        "surface": "や"
+      }
+    },
+    {
+      "level": "ROUGH",
+      "note": "Blunt or aggressive speech. Commands, and the particles that go with them.",
+      "match": [
+        {
+          "base": "な",
+          "pos": "助詞,終助詞"
+        }
+      ],
+      "after": {
+        "pos": "動詞",
+        "cform": "基本形"
+      }
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "base": "てる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "base": "ちゃう",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "base": "とく",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "base": "だ",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "base": "ない",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "base": "た",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "pos": "動詞,自立",
+          "cform": "基本形"
+        }
+      ]
+    },
+    {
+      "level": "CASUAL",
+      "note": "Plain forms, with no politeness marker anywhere.",
+      "match": [
+        {
+          "pos": "形容詞,自立",
+          "cform": "基本形"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "compound-3068-304b-3044-3075",
+      "fragment": "とかいふ",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "とかいふ",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-304b-3044-3044-307e-3059",
+      "fragment": "とかいいます",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "とかいいます",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-304b-3044-3046",
+      "fragment": "とかいう",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "とかいう",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3063-3066-306a",
+      "fragment": "ってな",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "ってな",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3063-3061-3085-3046",
+      "fragment": "っちゅう",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "っちゅう",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3063-3066-3044-3046",
+      "fragment": "っていう",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "っていう",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3066-3044-3046",
+      "fragment": "ていう",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "ていう",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-3044-3075",
+      "fragment": "といふ",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "といふ",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-3044-3063-305f",
+      "fragment": "といった",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "といった",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-3044-3044-307e-3059",
+      "fragment": "といいます",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "といいます",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-3044-3046",
+      "fragment": "という",
+      "gloss": "called; that; such as",
+      "explanation": "Introduces a name, quotation or description associated with the preceding expression. The full construction distinguishes naming, reported content and examples.",
+      "match": [
+        {
+          "surface": "という",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-3057-307e-3057-3066",
+      "fragment": "としまして",
+      "gloss": "as; in the capacity of",
+      "explanation": "Marks the role, capacity or status of the preceding noun. The compound-particle POS distinguishes this from a volitional attempt using と + する.",
+      "match": [
+        {
+          "surface": "としまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-901a-3058-307e-3057-3066",
+      "fragment": "を通じまして",
+      "gloss": "through; throughout",
+      "explanation": "Connects an intermediary, means or span over which something occurs. Context distinguishes these functions.",
+      "match": [
+        {
+          "surface": "を通じまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-901a-3058-3066",
+      "fragment": "を通じて",
+      "gloss": "through; throughout",
+      "explanation": "Connects an intermediary, means or span over which something occurs. Context distinguishes these functions.",
+      "match": [
+        {
+          "surface": "を通じて",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-901a-3057-307e-3057-3066",
+      "fragment": "を通しまして",
+      "gloss": "through; throughout",
+      "explanation": "Connects an intermediary, means or span over which something occurs. Context distinguishes these functions.",
+      "match": [
+        {
+          "surface": "を通しまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-901a-3057-3066",
+      "fragment": "を通して",
+      "gloss": "through; throughout",
+      "explanation": "Connects an intermediary, means or span over which something occurs. Context distinguishes these functions.",
+      "match": [
+        {
+          "surface": "を通して",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-4ee5-3066",
+      "fragment": "を以て",
+      "gloss": "with; by; as of",
+      "explanation": "Marks a means, basis or endpoint in a formal expression. The predicate and context determine which applies.",
+      "match": [
+        {
+          "surface": "を以て",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-3082-3061-307e-3057-3066",
+      "fragment": "をもちまして",
+      "gloss": "with; by; as of",
+      "explanation": "Marks a means, basis or endpoint in a formal expression. The predicate and context determine which applies.",
+      "match": [
+        {
+          "surface": "をもちまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-3082-3063-3066",
+      "fragment": "をもって",
+      "gloss": "with; by; as of",
+      "explanation": "Marks a means, basis or endpoint in a formal expression. The predicate and context determine which applies.",
+      "match": [
+        {
+          "surface": "をもって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-3081-3050-308a-307e-3059",
+      "fragment": "をめぐります",
+      "gloss": "concerning; surrounding",
+      "explanation": "Marks the issue around which a discussion, dispute or activity centres.",
+      "match": [
+        {
+          "surface": "をめぐります",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-3081-3050-308a-307e-3057-3066",
+      "fragment": "をめぐりまして",
+      "gloss": "concerning; surrounding",
+      "explanation": "Marks the issue around which a discussion, dispute or activity centres.",
+      "match": [
+        {
+          "surface": "をめぐりまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3092-3081-3050-3063-3066",
+      "fragment": "をめぐって",
+      "gloss": "concerning; surrounding",
+      "explanation": "Marks the issue around which a discussion, dispute or activity centres.",
+      "match": [
+        {
+          "surface": "をめぐって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-969b-3057-307e-3057-3066",
+      "fragment": "に際しまして",
+      "gloss": "on the occasion of; when",
+      "explanation": "Identifies an occasion or circumstances for the following action, often in formal language.",
+      "match": [
+        {
+          "surface": "に際しまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-969b-3057",
+      "fragment": "に際し",
+      "gloss": "on the occasion of; when",
+      "explanation": "Identifies an occasion or circumstances for the following action, often in formal language.",
+      "match": [
+        {
+          "surface": "に際し",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-969b-3057-3066",
+      "fragment": "に際して",
+      "gloss": "on the occasion of; when",
+      "explanation": "Identifies an occasion or circumstances for the following action, often in formal language.",
+      "match": [
+        {
+          "surface": "に際して",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f93-3046",
+      "fragment": "に従う",
+      "gloss": "in accordance with; as",
+      "explanation": "Connects a standard being followed or a change accompanied by another change. Context determines which applies.",
+      "match": [
+        {
+          "surface": "に従う",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f93-3044-307e-3059",
+      "fragment": "に従います",
+      "gloss": "in accordance with; as",
+      "explanation": "Connects a standard being followed or a change accompanied by another change. Context determines which applies.",
+      "match": [
+        {
+          "surface": "に従います",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f93-3044-307e-3057-3066",
+      "fragment": "に従いまして",
+      "gloss": "in accordance with; as",
+      "explanation": "Connects a standard being followed or a change accompanied by another change. Context determines which applies.",
+      "match": [
+        {
+          "surface": "に従いまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f93-3044",
+      "fragment": "に従い",
+      "gloss": "in accordance with; as",
+      "explanation": "Connects a standard being followed or a change accompanied by another change. Context determines which applies.",
+      "match": [
+        {
+          "surface": "に従い",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f93-3063-3066",
+      "fragment": "に従って",
+      "gloss": "in accordance with; as",
+      "explanation": "Connects a standard being followed or a change accompanied by another change. Context determines which applies.",
+      "match": [
+        {
+          "surface": "に従って",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-308f-305f-308b",
+      "fragment": "にわたる",
+      "gloss": "throughout; over",
+      "explanation": "Describes an action or state extending across a span of time, space or scope.",
+      "match": [
+        {
+          "surface": "にわたる",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-308f-305f-308a-307e-3059",
+      "fragment": "にわたります",
+      "gloss": "throughout; over",
+      "explanation": "Describes an action or state extending across a span of time, space or scope.",
+      "match": [
+        {
+          "surface": "にわたります",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-308f-305f-308a-307e-3057-3066",
+      "fragment": "にわたりまして",
+      "gloss": "throughout; over",
+      "explanation": "Describes an action or state extending across a span of time, space or scope.",
+      "match": [
+        {
+          "surface": "にわたりまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-308f-305f-308a",
+      "fragment": "にわたり",
+      "gloss": "throughout; over",
+      "explanation": "Describes an action or state extending across a span of time, space or scope.",
+      "match": [
+        {
+          "surface": "にわたり",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-308f-305f-3063-3066",
+      "fragment": "にわたって",
+      "gloss": "throughout; over",
+      "explanation": "Describes an action or state extending across a span of time, space or scope.",
+      "match": [
+        {
+          "surface": "にわたって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-307e-3064-308f-308b",
+      "fragment": "にまつわる",
+      "gloss": "associated with; concerning",
+      "explanation": "Connects something associated with the preceding subject; にまつわる modifies a following noun.",
+      "match": [
+        {
+          "surface": "にまつわる",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-307e-3064-308f-308a-307e-3059",
+      "fragment": "にまつわります",
+      "gloss": "associated with; concerning",
+      "explanation": "Connects something associated with the preceding subject; にまつわる modifies a following noun.",
+      "match": [
+        {
+          "surface": "にまつわります",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3064-308c-3066",
+      "fragment": "につれて",
+      "gloss": "as; in proportion to",
+      "explanation": "Presents the following change as accompanying a change in the preceding condition.",
+      "match": [
+        {
+          "surface": "につれて",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3064-308c",
+      "fragment": "につれ",
+      "gloss": "as; in proportion to",
+      "explanation": "Presents the following change as accompanying a change in the preceding condition.",
+      "match": [
+        {
+          "surface": "につれ",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3064-3051",
+      "fragment": "につけ",
+      "gloss": "whenever; with regard to",
+      "explanation": "Links an occasion or consideration to the following response. Paired expressions and context determine the intended relationship.",
+      "match": [
+        {
+          "surface": "につけ",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-304b-3051-307e-3057-3066",
+      "fragment": "にかけまして",
+      "gloss": "over; through; when it comes to",
+      "explanation": "Specifies an extent or range, or a domain of comparison. The surrounding construction determines which meaning applies.",
+      "match": [
+        {
+          "surface": "にかけまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-304b-3051-3066",
+      "fragment": "にかけて",
+      "gloss": "over; through; when it comes to",
+      "explanation": "Specifies an extent or range, or a domain of comparison. The surrounding construction determines which meaning applies.",
+      "match": [
+        {
+          "surface": "にかけて",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-304b-3051",
+      "fragment": "にかけ",
+      "gloss": "over; through; when it comes to",
+      "explanation": "Specifies an extent or range, or a domain of comparison. The surrounding construction determines which meaning applies.",
+      "match": [
+        {
+          "surface": "にかけ",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f53-305f-308b",
+      "fragment": "に当たる",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "に当たる",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f53-305f-308a-307e-3059",
+      "fragment": "に当たります",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "に当たります",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f53-305f-308a-307e-3057-3066",
+      "fragment": "に当たりまして",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "に当たりまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f53-305f-308a",
+      "fragment": "に当たり",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "に当たり",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5f53-305f-3063-3066",
+      "fragment": "に当たって",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "に当たって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3042-305f-308b",
+      "fragment": "にあたる",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "にあたる",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3042-305f-308a-307e-3059",
+      "fragment": "にあたります",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "にあたります",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3042-305f-308a-307e-3057-3066",
+      "fragment": "にあたりまして",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "にあたりまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3042-305f-308a",
+      "fragment": "にあたり",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "にあたり",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3042-305f-3063-3066",
+      "fragment": "にあたって",
+      "gloss": "on the occasion of",
+      "explanation": "Sets the occasion or stage at which the following action takes place; the preceding noun identifies that occasion.",
+      "match": [
+        {
+          "surface": "にあたって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-5171-306b",
+      "fragment": "と共に",
+      "gloss": "together with; as",
+      "explanation": "Links accompanying participants or events; it can also describe changes occurring together.",
+      "match": [
+        {
+          "surface": "と共に",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-3068-3068-3082-306b",
+      "fragment": "とともに",
+      "gloss": "together with; as",
+      "explanation": "Links accompanying participants or events; it can also describe changes occurring together.",
+      "match": [
+        {
+          "surface": "とともに",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3088-308b",
+      "fragment": "による",
+      "gloss": "by; because of; depending on",
+      "explanation": "Connects an agent, means, cause or basis of variation to the predicate. The complete clause determines which relationship applies.",
+      "match": [
+        {
+          "surface": "による",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3088-308a-307e-3059",
+      "fragment": "によります",
+      "gloss": "by; because of; depending on",
+      "explanation": "Connects an agent, means, cause or basis of variation to the predicate. The complete clause determines which relationship applies.",
+      "match": [
+        {
+          "surface": "によります",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3088-308a-307e-3057-3066",
+      "fragment": "によりまして",
+      "gloss": "by; because of; depending on",
+      "explanation": "Connects an agent, means, cause or basis of variation to the predicate. The complete clause determines which relationship applies.",
+      "match": [
+        {
+          "surface": "によりまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3088-308a",
+      "fragment": "により",
+      "gloss": "by; because of; depending on",
+      "explanation": "Connects an agent, means, cause or basis of variation to the predicate. The complete clause determines which relationship applies.",
+      "match": [
+        {
+          "surface": "により",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3064-304d",
+      "fragment": "につき",
+      "gloss": "about; concerning; per",
+      "explanation": "Marks the matter under discussion; につき can also express a basis, reason or a per-unit rate. Context determines which applies.",
+      "match": [
+        {
+          "surface": "につき",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-95a2-3059-308b",
+      "fragment": "に関する",
+      "gloss": "concerning; regarding",
+      "explanation": "Marks the topic or matter that the following statement concerns. に関する modifies a following noun.",
+      "match": [
+        {
+          "surface": "に関する",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-95a2-3057-307e-3059",
+      "fragment": "に関します",
+      "gloss": "concerning; regarding",
+      "explanation": "Marks the topic or matter that the following statement concerns. に関する modifies a following noun.",
+      "match": [
+        {
+          "surface": "に関します",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-95a2-3057-307e-3057-3066",
+      "fragment": "に関しまして",
+      "gloss": "concerning; regarding",
+      "explanation": "Marks the topic or matter that the following statement concerns. に関する modifies a following noun.",
+      "match": [
+        {
+          "surface": "に関しまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-95a2-3057",
+      "fragment": "に関し",
+      "gloss": "concerning; regarding",
+      "explanation": "Marks the topic or matter that the following statement concerns. に関する modifies a following noun.",
+      "match": [
+        {
+          "surface": "に関し",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-95a2-3057-3066",
+      "fragment": "に関して",
+      "gloss": "concerning; regarding",
+      "explanation": "Marks the topic or matter that the following statement concerns. に関する modifies a following noun.",
+      "match": [
+        {
+          "surface": "に関して",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-304a-3051-308b",
+      "fragment": "における",
+      "gloss": "in; at; regarding",
+      "explanation": "Specifies the setting, domain or circumstances in which the statement holds. における modifies a following noun.",
+      "match": [
+        {
+          "surface": "における",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-304a-304d-307e-3057-3066",
+      "fragment": "におきまして",
+      "gloss": "in; at; regarding",
+      "explanation": "Specifies the setting, domain or circumstances in which the statement holds. における modifies a following noun.",
+      "match": [
+        {
+          "surface": "におきまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-304a-3044-3066",
+      "fragment": "において",
+      "gloss": "in; at; regarding",
+      "explanation": "Specifies the setting, domain or circumstances in which the statement holds. における modifies a following noun.",
+      "match": [
+        {
+          "surface": "において",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-305f-3044-3059-308b",
+      "fragment": "にたいする",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "にたいする",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-305f-3044-3057-307e-3059",
+      "fragment": "にたいします",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "にたいします",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-305f-3044-3057-307e-3057-3066",
+      "fragment": "にたいしまして",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "にたいしまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-305f-3044-3057-3066",
+      "fragment": "にたいして",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "にたいして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5bfe-3059-308b",
+      "fragment": "に対する",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "に対する",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5bfe-3057-307e-3059",
+      "fragment": "に対します",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "に対します",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5bfe-3057-307e-3057-3066",
+      "fragment": "に対しまして",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "に対しまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5bfe-3057",
+      "fragment": "に対し",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "に対し",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-5bfe-3057-3066",
+      "fragment": "に対して",
+      "gloss": "toward; in contrast to",
+      "explanation": "Connects a target of an action or attitude, or establishes a contrast. The predicate and context determine which relationship applies.",
+      "match": [
+        {
+          "surface": "に対して",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3068-308a-307e-3057-3066",
+      "fragment": "にとりまして",
+      "gloss": "for; from the standpoint of",
+      "explanation": "Marks whose standpoint or interests the statement is evaluated from.",
+      "match": [
+        {
+          "surface": "にとりまして",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3068-308a",
+      "fragment": "にとり",
+      "gloss": "for; from the standpoint of",
+      "explanation": "Marks whose standpoint or interests the statement is evaluated from.",
+      "match": [
+        {
+          "surface": "にとり",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "compound-306b-3068-3063-3066",
+      "fragment": "にとって",
+      "gloss": "for; from the standpoint of",
+      "explanation": "Marks whose standpoint or interests the statement is evaluated from.",
+      "match": [
+        {
+          "surface": "にとって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "case-toshiteno",
+      "fragment": "としての",
+      "source": "PATTERN",
+      "gloss": "as / in the capacity of",
+      "explanation": "として marks the role, capacity or status of the preceding noun. の connects that description to the following noun.",
+      "match": [
+        {
+          "surface": "として",
+          "pos": "助詞,格助詞,連語"
+        },
+        {
+          "surface": "の",
+          "pos": "助詞,連体化"
+        }
+      ]
+    },
+    {
+      "id": "case-toshite",
+      "fragment": "として",
+      "source": "PATTERN",
+      "gloss": "as / in the capacity of",
+      "explanation": "Marks the role, capacity or status of the preceding noun: for example, 先生として働く means to work as a teacher. It is a grammatical expression, rather than a separate action meaning to do.",
+      "match": [
+        {
+          "surface": "として",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "suffix-ppuri-verb",
+      "fragment": "〜っぷり",
+      "source": "PATTERN",
+      "gloss": "manner / state",
+      "explanation": "Forms a noun from the preceding verb stem: the way or manner in which the action is done.",
+      "after": {
+        "pos": "動詞",
+        "cform": "連用"
+      },
+      "match": [
+        {
+          "surface": "っぷり",
+          "pos": "名詞,接尾"
+        }
+      ]
+    },
+    {
+      "id": "suffix-ppuri-noun",
+      "fragment": "〜っぷり",
+      "source": "PATTERN",
+      "gloss": "manner / state",
+      "explanation": "Describes the manner, state or appearance of the noun it attaches to.",
+      "after": {
+        "pos": "名詞"
+      },
+      "match": [
+        {
+          "surface": "っぷり",
+          "pos": "名詞,接尾"
+        }
+      ]
+    },
+    {
+      "id": "particle-wa",
+      "fragment": "は",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "topic marker",
+      "explanation": "Sets what the sentence is about. It is not the subject — it is the frame everything after it is said inside.",
+      "match": [
+        {
+          "surface": "は",
+          "pos": "助詞,係助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-ga",
+      "fragment": "が",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "subject marker",
+      "explanation": "Marks who or what is doing the verb. Against は it points at new or contrastive information: は frames, が identifies.",
+      "match": [
+        {
+          "surface": "が",
+          "pos": "助詞,格助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-wo",
+      "fragment": "を",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "direct object",
+      "explanation": "Marks what the verb is done to.",
+      "match": [
+        {
+          "surface": "を",
+          "pos": "助詞,格助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-ni",
+      "fragment": "に",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "to / at / in",
+      "explanation": "Points at a destination, a time, or the person on the receiving end. Its job depends entirely on the verb it serves.",
+      "match": [
+        {
+          "surface": "に",
+          "pos": "助詞,格助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-de",
+      "fragment": "で",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "at / by means of",
+      "explanation": "Where an action happens, or the tool it happens with — as against に, which is where something ends up.",
+      "match": [
+        {
+          "surface": "で",
+          "pos": "助詞,格助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-to-with",
+      "fragment": "と",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "and / with",
+      "explanation": "Joins nouns exhaustively, or marks the person an action is done together with.",
+      "match": [
+        {
+          "surface": "と",
+          "pos": "助詞,並立助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-to-comitative",
+      "fragment": "と",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "with",
+      "explanation": "Marks the person an action is done together with. The same character between two nouns instead lists them.",
+      "match": [
+        {
+          "surface": "と",
+          "pos": "助詞,格助詞",
+          "posNot": "助詞,格助詞,引用"
+        }
+      ]
+    },
+    {
+      "id": "particle-no",
+      "fragment": "の",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "of / 's",
+      "explanation": "Links two nouns, with the owner or category first. Japanese stacks these freely where English needs several words.",
+      "match": [
+        {
+          "surface": "の",
+          "pos": "助詞,連体化"
+        }
+      ]
+    },
+    {
+      "id": "particle-mo",
+      "fragment": "も",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "also / even",
+      "explanation": "Adds this to something already said, and replaces は or が rather than stacking on them.",
+      "match": [
+        {
+          "surface": "も",
+          "pos": "助詞,係助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-kara",
+      "fragment": "から",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "from / because",
+      "explanation": "After a noun, a starting point. After a clause, the reason for what follows.",
+      "match": [
+        {
+          "surface": "から",
+          "pos": "助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-made",
+      "fragment": "まで",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "until / as far as",
+      "explanation": "The far end of a range, in space or in time.",
+      "match": [
+        {
+          "surface": "まで",
+          "pos": "助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-he",
+      "fragment": "へ",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "toward",
+      "explanation": "Direction of travel. Softer than に, which insists on arrival.",
+      "match": [
+        {
+          "surface": "へ",
+          "pos": "助詞,格助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-yori",
+      "fragment": "より",
+      "source": "PARTICLE",
+      "jlpt": "N4",
+      "gloss": "than",
+      "explanation": "The thing being compared against.",
+      "match": [
+        {
+          "surface": "より",
+          "pos": "助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-dake",
+      "fragment": "だけ",
+      "source": "PARTICLE",
+      "jlpt": "N4",
+      "gloss": "only / just",
+      "explanation": "Limits what precedes it, with no suggestion that it is too little.",
+      "match": [
+        {
+          "surface": "だけ",
+          "pos": "助詞,副助詞"
+        }
+      ]
+    },
+    {
+      "id": "particle-shika",
+      "fragment": "しか",
+      "source": "PARTICLE",
+      "jlpt": "N4",
+      "gloss": "nothing but",
+      "explanation": "Like だけ, but it demands a negative verb and carries the sense that this is not enough.",
+      "match": [
+        {
+          "surface": "しか",
+          "pos": "助詞,係助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-ne",
+      "fragment": "ね",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "…right?",
+      "explanation": "Invites the listener to agree. It assumes shared ground rather than asking a real question.",
+      "match": [
+        {
+          "base": "ね",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-yo",
+      "fragment": "よ",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "…you know",
+      "explanation": "Pushes information the speaker thinks the listener does not have yet.",
+      "match": [
+        {
+          "base": "よ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-ka",
+      "fragment": "か",
+      "source": "PARTICLE",
+      "jlpt": "N5",
+      "gloss": "question marker",
+      "explanation": "Turns the sentence into a question. Casual speech often drops it and just raises the pitch instead.",
+      "match": [
+        {
+          "base": "か",
+          "pos": "助詞"
+        }
+      ],
+      "atEnd": true
+    },
+    {
+      "id": "final-na-prohibit",
+      "fragment": "〜な",
+      "source": "PARTICLE",
+      "jlpt": "N4",
+      "gloss": "don't",
+      "explanation": "After a plain-form verb, a blunt prohibition: don't {prevBase}. Sharp, and usually said downward.",
+      "match": [
+        {
+          "base": "な",
+          "pos": "助詞,終助詞"
+        }
+      ],
+      "after": {
+        "pos": "動詞",
+        "cform": "基本形"
+      }
+    },
+    {
+      "id": "final-ze",
+      "fragment": "ぜ",
+      "source": "PARTICLE",
+      "gloss": "assertive",
+      "explanation": "Rough masculine emphasis. Pushes the statement at the listener.",
+      "match": [
+        {
+          "base": "ぜ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-zo",
+      "fragment": "ぞ",
+      "source": "PARTICLE",
+      "gloss": "assertive",
+      "explanation": "Rough emphasis, often to oneself as much as to anyone listening.",
+      "match": [
+        {
+          "base": "ぞ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-wa",
+      "fragment": "わ",
+      "source": "PARTICLE",
+      "gloss": "softening",
+      "explanation": "Softens the statement. In manga it is heavily gendered as feminine speech, more than it is in real conversation.",
+      "match": [
+        {
+          "base": "わ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-sa",
+      "fragment": "さ",
+      "source": "PARTICLE",
+      "gloss": "casual filler",
+      "explanation": "Casual, offhand emphasis — closer to English \"y'know\" than to anything with meaning.",
+      "match": [
+        {
+          "base": "さ",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-kana",
+      "fragment": "かな",
+      "source": "PARTICLE",
+      "jlpt": "N4",
+      "gloss": "I wonder",
+      "explanation": "Wondering aloud, with no real expectation of an answer.",
+      "match": [
+        {
+          "surface": "か",
+          "pos": "助詞"
+        },
+        {
+          "surface": "な",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "final-mon",
+      "fragment": "もん",
+      "source": "PARTICLE",
+      "gloss": "because, see",
+      "explanation": "A pouting or defensive reason — \"because that's how it is\". Contraction of もの.",
+      "match": [
+        {
+          "base": "もん",
+          "pos": "助詞,終助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-te",
+      "fragment": "〜て",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "and then / and so",
+      "explanation": "The て-form links clauses without saying how they relate. Sequence, cause and manner all look identical here; context decides.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        }
+      ],
+      "before": {
+        "posNot": "動詞,非自立"
+      }
+    },
+    {
+      "id": "conj-kedo",
+      "fragment": "けど",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "but / though",
+      "explanation": "Concessive link. Mid-sentence it is a real \"but\".",
+      "match": [
+        {
+          "base": "けど",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-kedo-trailing",
+      "fragment": "〜けど",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "…though",
+      "explanation": "Closes the sentence as an aside rather than a claim. Trailing けど softens; it is not a real \"but\" and nothing is being contrasted.",
+      "match": [
+        {
+          "base": "けど",
+          "pos": "助詞,接続助詞"
+        }
+      ],
+      "atEnd": true
+    },
+    {
+      "id": "conj-ga",
+      "fragment": "〜が",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "but",
+      "explanation": "The same concessive job as けど, one register up.",
+      "match": [
+        {
+          "surface": "が",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-node",
+      "fragment": "〜ので",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "because",
+      "explanation": "Gives a reason, presented as simple fact. Softer and less argumentative than から.",
+      "match": [
+        {
+          "surface": "ので",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-shi",
+      "fragment": "〜し",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "and what's more",
+      "explanation": "Piles up reasons, implying the list could go on.",
+      "match": [
+        {
+          "surface": "し",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-nagara",
+      "fragment": "〜ながら",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "while doing",
+      "explanation": "Two actions at once by the same person. The main one is the second.",
+      "match": [
+        {
+          "surface": "ながら",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-tsutsu",
+      "fragment": "〜つつ",
+      "source": "PATTERN",
+      "jlpt": "N2",
+      "gloss": "while / even though",
+      "explanation": "A literary ながら. Often carries a note of contradiction: doing this while knowing better.",
+      "match": [
+        {
+          "surface": "つつ",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "conj-tari",
+      "fragment": "〜たり",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "doing things like",
+      "explanation": "Lists representative actions, not exhaustive ones — these among others.",
+      "match": [
+        {
+          "surface": "たり",
+          "pos": "助詞,並立助詞"
+        }
+      ]
+    },
+    {
+      "id": "te-iru",
+      "fragment": "〜ている",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "is doing / is in the state of",
+      "explanation": "Either an action in progress or a resulting state that still holds. Which one depends on the verb, not on the form.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "いる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-ru",
+      "fragment": "〜てる",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "is doing",
+      "explanation": "Spoken contraction of 〜ている. The い is simply dropped, which is what ordinary speech does with it.",
+      "match": [
+        {
+          "base": "てる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-te-colloquial",
+      "fragment": "〜てて",
+      "source": "PATTERN",
+      "gloss": "…ing, and",
+      "explanation": "Colloquial squeeze of 〜ていて, linking this clause to the next.",
+      "match": [
+        {
+          "base": "てる",
+          "pos": "動詞,非自立"
+        },
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "te-nai",
+      "fragment": "〜てない",
+      "source": "PATTERN",
+      "gloss": "hasn't / isn't",
+      "explanation": "Contraction of 〜ていない. States that something has not come to be, rather than that it simply did not happen.",
+      "match": [
+        {
+          "base": "てる",
+          "pos": "動詞,非自立"
+        },
+        {
+          "base": "ない",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "te-shimau",
+      "fragment": "〜てしまう",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "ends up / regrettably",
+      "explanation": "Completion, usually with regret attached. Something happened and cannot be taken back.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "しまう",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "chau",
+      "fragment": "〜ちゃう",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "ends up / oops",
+      "explanation": "Casual contraction of 〜てしまう. Same regret, lighter tone.",
+      "match": [
+        {
+          "base": "ちゃう",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-oku",
+      "fragment": "〜ておく",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "do in advance",
+      "explanation": "Does something now for the sake of later, and leaves it that way.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "おく",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "toku",
+      "fragment": "〜とく",
+      "source": "PATTERN",
+      "gloss": "do in advance",
+      "explanation": "Casual contraction of 〜ておく.",
+      "match": [
+        {
+          "base": "とく",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-miru",
+      "fragment": "〜てみる",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "try doing",
+      "explanation": "Does it to find out what happens. The trying is the point, not the succeeding.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "みる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-kureru",
+      "fragment": "〜てくれる",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "does it for me",
+      "explanation": "Someone else acts, and the speaker benefits. Japanese tracks who the favour flows toward where English usually does not.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "くれる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-morau",
+      "fragment": "〜てもらう",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "have someone do",
+      "explanation": "The speaker receives the action, having arranged for it. The favour flows toward the speaker.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "もらう",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-ageru",
+      "fragment": "〜てあげる",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "do for someone",
+      "explanation": "The speaker does it for someone else. Said about oneself it can sound condescending, which manga uses on purpose.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "あげる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-yaru",
+      "fragment": "〜てやる",
+      "source": "PATTERN",
+      "gloss": "do for / do to",
+      "explanation": "A blunt 〜てあげる. Downward to an inferior, or defiantly — \"just watch me\".",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "やる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-iku",
+      "fragment": "〜ていく",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "go on doing",
+      "explanation": "Change moving away from the speaker, in space or forward in time.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "いく",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-kuru",
+      "fragment": "〜てくる",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "come to be",
+      "explanation": "Change moving toward the speaker, or up to now from the past.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "くる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "te-kudasai",
+      "fragment": "〜てください",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "please do",
+      "explanation": "The standard polite request. Still an instruction, however politely it is dressed.",
+      "match": [
+        {
+          "base": "て",
+          "pos": "助詞,接続助詞"
+        },
+        {
+          "base": "くださる",
+          "pos": "動詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "passive-reru",
+      "fragment": "{prev}{text}",
+      "source": "INFLECTION",
+      "jlpt": "N4",
+      "gloss": "passive / potential / honorific",
+      "explanation": "From {prevBase}. れる／られる can mark passive voice, potential ability or respect. The predicate and surrounding context determine which applies.",
+      "match": [
+        {
+          "base": "れる",
+          "pos": "動詞,接尾"
+        }
+      ],
+      "after": {
+        "pos": "動詞"
+      }
+    },
+    {
+      "id": "passive-rareru",
+      "fragment": "{prev}{text}",
+      "source": "INFLECTION",
+      "jlpt": "N4",
+      "gloss": "passive / potential / honorific",
+      "explanation": "From {prevBase}. れる／られる can mark passive voice, potential ability or respect. The predicate and surrounding context determine which applies.",
+      "match": [
+        {
+          "base": "られる",
+          "pos": "動詞,接尾"
+        }
+      ],
+      "after": {
+        "pos": "動詞"
+      }
+    },
+    {
+      "id": "causative-seru",
+      "fragment": "{prev}{text}",
+      "source": "INFLECTION",
+      "jlpt": "N4",
+      "gloss": "causative",
+      "explanation": "Causative of {prevBase}: makes or lets someone do it. Which of the two depends on who had the choice.",
+      "match": [
+        {
+          "base": "せる",
+          "pos": "動詞,接尾"
+        }
+      ],
+      "after": {
+        "pos": "動詞"
+      }
+    },
+    {
+      "id": "causative-saseru",
+      "fragment": "{prev}{text}",
+      "source": "INFLECTION",
+      "jlpt": "N4",
+      "gloss": "causative",
+      "explanation": "Causative of {prevBase}: makes or lets someone do it.",
+      "match": [
+        {
+          "base": "させる",
+          "pos": "動詞,接尾"
+        }
+      ],
+      "after": {
+        "pos": "動詞"
+      }
+    },
+    {
+      "id": "negative-nai",
+      "fragment": "〜ない",
+      "source": "INFLECTION",
+      "jlpt": "N5",
+      "gloss": "not",
+      "explanation": "Plain negative. The casual counterpart of 〜ません.",
+      "match": [
+        {
+          "base": "ない",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "past-ta",
+      "fragment": "〜た",
+      "source": "INFLECTION",
+      "jlpt": "N5",
+      "gloss": "past",
+      "explanation": "Plain past. Japanese has one past tense and leans on context for everything English splits into perfect and simple.",
+      "match": [
+        {
+          "base": "た",
+          "pos": "助動詞",
+          "surface": "た"
+        }
+      ]
+    },
+    {
+      "id": "polite-masu",
+      "fragment": "〜ます",
+      "source": "INFLECTION",
+      "jlpt": "N5",
+      "gloss": "polite",
+      "explanation": "The polite verb ending. It says nothing about the content — only about the speaker's stance toward whoever is listening.",
+      "match": [
+        {
+          "base": "ます",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "polite-negative-masen",
+      "fragment": "〜ません",
+      "source": "INFLECTION",
+      "jlpt": "N5",
+      "gloss": "polite negative",
+      "explanation": "Polite negative: ます plus ん.",
+      "match": [
+        {
+          "base": "ます",
+          "pos": "助動詞"
+        },
+        {
+          "base": "ん",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "desu",
+      "fragment": "です",
+      "source": "INFLECTION",
+      "jlpt": "N5",
+      "gloss": "is (polite)",
+      "explanation": "The polite copula. Attaches to nouns and adjectives to make the sentence polite without changing what it says.",
+      "match": [
+        {
+          "base": "です",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "da",
+      "fragment": "だ",
+      "source": "INFLECTION",
+      "jlpt": "N5",
+      "gloss": "is (plain)",
+      "explanation": "The plain copula. Casual speech drops it entirely as often as it says it.",
+      "match": [
+        {
+          "base": "だ",
+          "pos": "助動詞",
+          "surface": "だ"
+        }
+      ]
+    },
+    {
+      "id": "tai",
+      "fragment": "〜たい",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "want to",
+      "explanation": "The speaker's own desire. Japanese avoids using it for other people's wants — you cannot see inside someone else.",
+      "match": [
+        {
+          "base": "たい",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "tagaru",
+      "fragment": "〜たがる",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "seems to want to",
+      "explanation": "Someone else's desire, reported from the outside — which is why it needs its own form.",
+      "match": [
+        {
+          "base": "たい",
+          "pos": "助動詞"
+        },
+        {
+          "base": "がる",
+          "pos": "動詞,接尾"
+        }
+      ]
+    },
+    {
+      "id": "rashii",
+      "fragment": "〜らしい",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "apparently",
+      "explanation": "Hearsay. The speaker got this from somewhere else and is not vouching for it.",
+      "match": [
+        {
+          "base": "らしい",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "sou-looks",
+      "fragment": "〜そう",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "looks like",
+      "explanation": "A guess from appearance. On the verb stem it means \"about to\"; on an adjective, \"looks\".",
+      "match": [
+        {
+          "base": "そう",
+          "pos": "名詞,接尾"
+        }
+      ]
+    },
+    {
+      "id": "mitai",
+      "fragment": "〜みたい",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "like / seems",
+      "explanation": "Casual comparison or guess. The conversational cousin of 〜のよう.",
+      "match": [
+        {
+          "base": "みたい",
+          "pos": "名詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "you-da",
+      "fragment": "〜よう",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "seems / as if",
+      "explanation": "A measured inference, one register above みたい.",
+      "match": [
+        {
+          "base": "よう",
+          "pos": "名詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "darou",
+      "fragment": "〜だろう",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "probably / right?",
+      "explanation": "A guess offered for agreement. Said flat it is a prediction; said up it is a challenge.",
+      "match": [
+        {
+          "base": "だ",
+          "pos": "助動詞",
+          "surface": "だろ"
+        }
+      ]
+    },
+    {
+      "id": "volitional-u",
+      "fragment": "〜よう / 〜おう",
+      "source": "INFLECTION",
+      "jlpt": "N4",
+      "gloss": "let's / I shall",
+      "explanation": "Volitional. Either a suggestion to do it together or the speaker resolving to do it alone.",
+      "match": [
+        {
+          "base": "う",
+          "pos": "助動詞"
+        }
+      ],
+      "after": {
+        "cform": "未然ウ接続"
+      }
+    },
+    {
+      "id": "imperative",
+      "fragment": "{text}",
+      "source": "INFLECTION",
+      "jlpt": "N4",
+      "gloss": "command",
+      "explanation": "Bare imperative of {base}. The bluntest way to tell someone to do something — an order, not a request.",
+      "match": [
+        {
+          "pos": "動詞,自立",
+          "cform": "命令"
+        }
+      ]
+    },
+    {
+      "id": "nasai",
+      "fragment": "〜なさい",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "do it",
+      "explanation": "A command from above: parent to child, teacher to student. Polite in form, not in power.",
+      "match": [
+        {
+          "base": "なさる",
+          "pos": "動詞,非自立",
+          "surface": "なさい"
+        }
+      ]
+    },
+    {
+      "id": "cond-tara",
+      "fragment": "〜たら",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "if / when",
+      "explanation": "The everyday conditional. Once this happens, the rest follows — and it is happy with one-off, concrete situations.",
+      "match": [
+        {
+          "base": "た",
+          "pos": "助動詞",
+          "surface": "たら"
+        }
+      ]
+    },
+    {
+      "id": "cond-ba",
+      "fragment": "〜ば",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "if",
+      "explanation": "A conditional stated as a general rule rather than a particular occasion.",
+      "match": [
+        {
+          "surface": "ば",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "cond-nara",
+      "fragment": "〜なら",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "if it's the case that",
+      "explanation": "Takes what was just said as given and responds to it. \"If that's how it is, then —\".",
+      "match": [
+        {
+          "base": "だ",
+          "pos": "助動詞",
+          "surface": "なら"
+        }
+      ]
+    },
+    {
+      "id": "cond-to",
+      "fragment": "〜と",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "whenever / and then",
+      "explanation": "Automatic consequence. One thing always follows the other, with no choice in it.",
+      "match": [
+        {
+          "surface": "と",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "nakya",
+      "fragment": "〜なきゃ",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "have to",
+      "explanation": "Contraction of 〜なければ. The \"or else\" half is left unsaid, which is what makes it sound urgent.",
+      "match": [
+        {
+          "base": "ない",
+          "pos": "助動詞",
+          "surface": "なきゃ"
+        }
+      ]
+    },
+    {
+      "id": "nakucha",
+      "fragment": "〜なくちゃ",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "have to",
+      "explanation": "Contraction of 〜なくては, with the consequence left hanging.",
+      "match": [
+        {
+          "base": "ない",
+          "pos": "助動詞",
+          "surface": "なく"
+        },
+        {
+          "surface": "ちゃ",
+          "pos": "助詞,接続助詞"
+        }
+      ]
+    },
+    {
+      "id": "nda",
+      "fragment": "〜んだ",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "it's that…",
+      "explanation": "Frames the sentence as explanation rather than news — the reason behind something already on the table.",
+      "match": [
+        {
+          "base": "ん",
+          "pos": "名詞,非自立"
+        },
+        {
+          "base": "だ",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "noda",
+      "fragment": "〜のだ",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "it's that…",
+      "explanation": "The written form of 〜んだ. Explains, or insists.",
+      "match": [
+        {
+          "base": "の",
+          "pos": "名詞,非自立"
+        },
+        {
+          "base": "だ",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "quote-to",
+      "fragment": "〜と",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "that / quoting",
+      "explanation": "Marks the end of quoted or reported speech. Japanese closes the quote before naming the verb of saying.",
+      "match": [
+        {
+          "surface": "と",
+          "pos": "助詞,格助詞,引用"
+        }
+      ]
+    },
+    {
+      "id": "quote-tte",
+      "fragment": "って",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "…is what / they say",
+      "explanation": "Casual quotation, and also a casual topic marker. Which one it is depends on what follows it.",
+      "match": [
+        {
+          "surface": "って",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "koto",
+      "fragment": "こと",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "the act of",
+      "explanation": "Turns the clause before it into a noun, so it can take a particle like any other.",
+      "match": [
+        {
+          "base": "こと",
+          "pos": "名詞,非自立"
+        }
+      ]
+    },
+    {
+      "id": "ni-yotte",
+      "fragment": "〜によって",
+      "source": "PATTERN",
+      "jlpt": "N3",
+      "gloss": "by; because of; depending on",
+      "explanation": "Connects an agent, means, cause or basis of variation to the predicate. The complete clause determines which relationship applies.",
+      "match": [
+        {
+          "surface": "によって",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "ni-tsuite",
+      "fragment": "〜について",
+      "source": "PATTERN",
+      "jlpt": "N4",
+      "gloss": "about; concerning; per",
+      "explanation": "Marks the matter under discussion; につき can also express a basis, reason or a per-unit rate. Context determines which applies.",
+      "match": [
+        {
+          "surface": "について",
+          "pos": "助詞,格助詞,連語"
+        }
+      ]
+    },
+    {
+      "id": "keigo-irassharu",
+      "fragment": "いらっしゃる",
+      "source": "PATTERN",
+      "gloss": "to be / to come (honorific)",
+      "explanation": "Honorific for いる, 来る and 行く at once. Raises whoever is being spoken about.",
+      "match": [
+        {
+          "base": "いらっしゃる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "id": "keigo-ossharu",
+      "fragment": "おっしゃる",
+      "source": "PATTERN",
+      "gloss": "to say (honorific)",
+      "explanation": "Honorific for 言う.",
+      "match": [
+        {
+          "base": "おっしゃる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "id": "keigo-nasaru",
+      "fragment": "なさる",
+      "source": "PATTERN",
+      "gloss": "to do (honorific)",
+      "explanation": "Honorific for する.",
+      "match": [
+        {
+          "base": "なさる",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "id": "kenjo-itasu",
+      "fragment": "致す",
+      "source": "PATTERN",
+      "gloss": "to do (humble)",
+      "explanation": "Humble for する. Lowers the speaker, which raises the listener.",
+      "match": [
+        {
+          "base": "致す",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "id": "kenjo-mousu",
+      "fragment": "申す",
+      "source": "PATTERN",
+      "gloss": "to say (humble)",
+      "explanation": "Humble for 言う, and the standard way to give one's own name formally.",
+      "match": [
+        {
+          "base": "申す",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "id": "kenjo-itadaku",
+      "fragment": "いただく",
+      "source": "PATTERN",
+      "gloss": "to receive (humble)",
+      "explanation": "Humble for もらう. The speaker is on the receiving end and says so deferentially.",
+      "match": [
+        {
+          "base": "いただく",
+          "pos": "動詞"
+        }
+      ]
+    },
+    {
+      "id": "gozaru",
+      "fragment": "〜でござる",
+      "source": "PATTERN",
+      "gloss": "is (archaic / very formal)",
+      "explanation": "Archaic copula. In manga it marks samurai speech, or someone affecting it.",
+      "match": [
+        {
+          "base": "ござる",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "classical-naru",
+      "fragment": "〜なる",
+      "source": "PATTERN",
+      "gloss": "the … that is",
+      "explanation": "Attributive form of the classical copula なり. Modern Japanese would use の here; the old form gives the phrase a scriptural ring.",
+      "match": [
+        {
+          "base": "なる",
+          "pos": "動詞"
+        }
+      ],
+      "after": {
+        "pos": "名詞"
+      },
+      "before": {
+        "pos": "名詞,非自立"
+      }
+    },
+    {
+      "id": "classical-nu",
+      "fragment": "〜ぬ",
+      "source": "PATTERN",
+      "gloss": "not (archaic)",
+      "explanation": "Classical negative, where modern Japanese says ない. Formal, literary, or deliberately old-fashioned.",
+      "match": [
+        {
+          "base": "ぬ",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "de-aru",
+      "fragment": "〜である",
+      "source": "PATTERN",
+      "jlpt": "N3",
+      "gloss": "is (literary)",
+      "explanation": "The written copula, used in essays and declarations. Never in ordinary speech.",
+      "match": [
+        {
+          "base": "だ",
+          "pos": "助動詞",
+          "surface": "で"
+        },
+        {
+          "base": "ある",
+          "pos": "助動詞"
+        }
+      ]
+    },
+    {
+      "id": "corner-brackets",
+      "fragment": "「 」",
+      "source": "PATTERN",
+      "gloss": "quotation marks",
+      "explanation": "Corner brackets are Japanese quotation marks. What sits inside them is being named or quoted, not asserted.",
+      "match": [
+        {
+          "pos": "記号,括弧開"
+        }
+      ]
+    },
+    {
+      "id": "suru-verb",
+      "fragment": "〜する",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "to do X",
+      "explanation": "{prev} plus する. A large part of the Japanese verb stock is a noun with する attached, and it inflects like any other verb.",
+      "match": [
+        {
+          "base": "する",
+          "pos": "動詞,自立"
+        }
+      ],
+      "after": {
+        "pos": "名詞,サ変接続"
+      }
+    },
+    {
+      "id": "yagaru",
+      "fragment": "〜やがる",
+      "source": "PATTERN",
+      "gloss": "damn well went and",
+      "explanation": "Pure contempt for whoever did the action. There is no polite way to translate it.",
+      "match": [
+        {
+          "base": "がる",
+          "pos": "動詞,接尾"
+        }
+      ],
+      "after": {
+        "surface": "や"
+      }
+    },
+    {
+      "id": "janai",
+      "fragment": "〜じゃない",
+      "source": "PATTERN",
+      "jlpt": "N5",
+      "gloss": "isn't it / that's not",
+      "explanation": "Casual negative copula. Said falling it denies; said rising it insists on agreement.",
+      "match": [
+        {
+          "surface": "じゃ"
+        },
+        {
+          "base": "ない",
+          "pos": "形容詞"
+        }
+      ]
+    },
+    {
+      "id": "jan",
+      "fragment": "〜じゃん",
+      "source": "PATTERN",
+      "gloss": "right? / isn't it",
+      "explanation": "Squeezed 〜じゃない, seeking agreement. Casual and regional, and very common in manga dialogue.",
+      "match": [
+        {
+          "base": "じゃん",
+          "pos": "助動詞"
+        }
+      ]
+    }
+  ]
+}

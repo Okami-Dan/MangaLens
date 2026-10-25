@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/paper" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+    <!-- Android 13's themed icons recolour this silhouette to the user's wallpaper
+         palette. Without it the launcher falls back to shrinking the full-colour mark
+         onto a grey plate, which reads as a bug rather than a choice. -->
+    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+</adaptive-icon>
